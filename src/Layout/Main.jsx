@@ -5,12 +5,16 @@ import Footer from '../pages/Shared/Footer/Footer';
 
 const Main = () => {
     return (
-        <>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>
-        </>
-    );
+		<>
+			<div className="max-w-screen-2xl mx-auto">
+				<Navbar></Navbar>
+				<Outlet></Outlet>
+			</div>
+			<div className="bg-neutral">
+				<Footer></Footer>
+			</div>
+		</>
+	);
 };
 
 export default Main;
