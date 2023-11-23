@@ -1,36 +1,72 @@
 import React from "react";
+import logo from "../../../assets/stargate.svg";
 
 const Navbar = () => {
 	const navItems = (
 		<>
 			<li>
-				<a >
-					<h1 className="">Home</h1>
-				</a>
+				<a className="text-base font-base  hover:text-primary ">HOME</a>
 			</li>
-			<li tabIndex={0}>
-				<details>
-					<summary>Parent</summary>
-					<ul className="p-2">
+
+			{/* <li tabIndex={0}>
+				<details className="text-base    ">
+					<summary className="text-base font-base  hover:text-[#5ca8ce] ">
+						Services
+					</summary>
+					<ul className="p-2  w-40 ">
 						<li>
-							<a>Submenu 1</a>
+							<a className="text-base font-base  hover:text-[#5ca8ce] ">
+								Home Internet
+							</a>
 						</li>
 						<li>
-							<a>Submenu 2</a>
+							<a className="text-base font-base  hover:text-[#5ca8ce] ">
+								Corporate
+							</a>
+						</li>
+						<li>
+							<a className="text-base font-base  hover:text-[#5ca8ce] ">
+								SME
+							</a>
 						</li>
 					</ul>
 				</details>
+			</li> */}
+
+			<li>
+				<a className="text-base font-base  hover:text-primary ">
+					INTERNET PACKAGES
+				</a>
+			</li>
+
+			<li>
+				<a className="text-base font-base  hover:text-primary ">
+					COVERAGE
+				</a>
 			</li>
 			<li>
-				<a>Item 3</a>
+				<a className="text-base font-base  hover:text-primary ">
+					PAY BILL
+				</a>
+			</li>
+			<li>
+				<a className="text-base font-base  hover:text-primary">OFFER</a>
+			</li>
+			<li>
+				<a className="text-base font-base  hover:text-[#5ca8ce] ">
+					ABOUT US
+				</a>
+			</li>
+			<li>
+				<a className="text-base font-base  hover:text-[#5ca8ce] ">
+					CONTACT US
+				</a>
 			</li>
 		</>
 	);
 
 	return (
 		<div className="navbar bg-base-100  ">
-			
-
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,11 +90,16 @@ const Navbar = () => {
 						{navItems}
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-xl">Stargate</a>
+
+				<img src={logo} className="w-24 h-15" alt="" />
 			</div>
 
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal px-1">{navItems}</ul>
+			</div>
+
+			<div className="navbar-end">
+				<button className="  btn btn-primary mr-5 ">SELF CARE</button>
 			</div>
 		</div>
 	);
