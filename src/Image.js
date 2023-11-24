@@ -1,4 +1,3 @@
-
 export const Image = [
 	{
 		path: "../../image/10.jpg",
