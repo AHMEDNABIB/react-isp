@@ -1,20 +1,21 @@
-import React from 'react';
-import Banner from '../Banner/Banner';
-import About from '../About/About';
-import Marquee from '../MarqueeImage/MarqueeImage';
+import React from "react";
+import About from "../About/About";
+import Banner from "../Banner/Banner";
+import Marquee from "../MarqueeImage/MarqueeImage";
+import Services from "../Services/Services";
 
 const Home = () => {
-    return (
+	return (
 		<div>
 			<Banner></Banner>
-			{/* <div className="max-w-screen-2xl mx-auto"> */}
-			<About></About>
-			{/* </div> */}
 
-            <div className='className="w-10 mx-auto'>
-                
-			<Marquee></Marquee>
-            </div>
+			<About></About>
+
+			<Services></Services>
+
+			<div className='className="w-10 mx-auto'>
+				<Marquee></Marquee>
+			</div>
 		</div>
 	);
 };
