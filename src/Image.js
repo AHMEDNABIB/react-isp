@@ -18,3 +18,19 @@ export const Image = [
 		btnName: "Services",
 	},
 ];
+
+
+export const MarqueeImage1 = [
+	{
+		path: "../../image/11.png"
+	},
+	{
+		path: "../../image/12.png"
+	},
+	{
+		path: "../../image/13.png"
+	},
+	{
+		path: "../../image/16.jpeg"
+	}
+]

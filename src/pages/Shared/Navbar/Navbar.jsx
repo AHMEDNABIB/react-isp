@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../assets/stargate.svg";
+import logo from "../../../../public/stargate.svg";
 
 const Navbar = () => {
 	const navItems = (
@@ -66,7 +66,7 @@ const Navbar = () => {
 	);
 
 	return (
-		<div className="navbar bg-base-100  ">
+		<div className="navbar bg-base-100 flex items-center justify-center  ">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -91,7 +91,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 
-				<img src={logo} className="w-24 h-15" alt="" />
+				<img src={logo} className=" w-52 h-16" alt="" />
 			</div>
 
 			<div className="navbar-center hidden lg:flex">
