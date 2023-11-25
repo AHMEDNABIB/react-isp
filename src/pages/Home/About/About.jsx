@@ -7,7 +7,7 @@ import "animate.css";
 
 const About = () => {
 	return (
-		<div className="hero ">
+		<div className="hero bg-[#f2f4f7]  mt-[-10px]">
 			<div className="hero-content flex-col lg:flex-row space-x-5">
 				<div className="lg:w-1/2  relative animate__animated animate__backInLeft ">
 					<img

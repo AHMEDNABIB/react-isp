@@ -5,10 +5,11 @@ import { IoMdBusiness } from "react-icons/io";
 import { MdCable, MdLabel, MdOutlineAddBusiness } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 
+
 const Services = () => {
 	return (
 		<div>
-			<div className="hero h-[800px] bg-base-200">
+			<div className="hero h-[800px] bg-[#fff]">
 				<div className="hero-content flex-col">
 					<div className="items-center">
 						<h1 className="text-5xl font-bold text-center">
@@ -21,9 +22,11 @@ const Services = () => {
 						</p>
 					</div>
 
+					
+
 					<progress className="progress progress-primary bg-[#878be7] w-56 mb-10 "></progress>
 
-					<div className="flex  flex-row   ">
+					<div className="flex flex-row   ">
 						{/* 1 */}
 						<div className="mx-5">
 							<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
