@@ -1,11 +1,13 @@
 import React from "react";
-import logo from "../../../../public/stargate.svg";
+// import logo from "../../../../public/stargate.svg";
+import logo from '../../../assets/stargate.svg'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	const navItems = (
 		<>
 			<li>
-				<a className="text-base font-base  hover:text-primary ">HOME</a>
+				<Link to="/" className="text-base font-base  hover:text-primary ">HOME</Link>
 			</li>
 
 			{/* <li tabIndex={0}>
@@ -34,9 +36,9 @@ const Navbar = () => {
 			</li> */}
 
 			<li>
-				<a className="text-base font-base  hover:text-primary ">
+				<Link to="/packages" className="text-base font-base  hover:text-primary ">
 					INTERNET PACKAGES
-				</a>
+				</Link>
 			</li>
 
 			<li>

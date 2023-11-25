@@ -1,9 +1,12 @@
 import React from "react";
 
-import image from "../../../../public/image/7.jpg";
+// import image from "../../../../public/image/7.jpg";
+import image from "../../../assets/image/7.jpg"
 
-import { SlArrowRightCircle } from "react-icons/sl";
 import "animate.css";
+import { SlArrowRightCircle } from "react-icons/sl";
+import Tabs from "./Tabs";
+
 
 const About = () => {
 	return (
@@ -102,6 +105,13 @@ const About = () => {
 							<p className="font-semibold">Unlimited Data</p>
 						</div>
 					</div>
+
+					{/* Tab */}
+
+					<Tabs/>
+
+				
+
 					<button className="btn btn-primary rounded-full">
 						Discover more
 					</button>

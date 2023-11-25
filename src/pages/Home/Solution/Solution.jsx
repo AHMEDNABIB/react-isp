@@ -22,7 +22,7 @@ const Solution = () => {
 
 					<progress className="progress progress-primary bg-[#878be7] w-56 mb-10 "></progress>
 
-					<div className="flex flex-nowrap mx-auto w-fit">
+					<div className="flex flex-wrap mx-auto  justify-center w-fit">
 						<div className="items-center text-center mx-10  mt-[-3] ">
 							<div className="card">
 								<figure className="mt-8 ">
@@ -99,6 +99,8 @@ const Solution = () => {
 							</div>
 						</div>
 					</div>
+
+					
 				</div>
 			</div>
 		</>
