@@ -36,7 +36,7 @@ const Navbar = () => {
 			</li> */}
 
 			<li>
-				<Link to="/packages" className="text-base font-base  hover:text-primary ">
+				<Link to="/packages/home_internet " className="text-base font-base  hover:text-primary ">
 					INTERNET PACKAGES
 				</Link>
 			</li>

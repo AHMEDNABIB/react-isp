@@ -6,13 +6,14 @@
 .tabsNo {
 	width: 605px;
 	display: flex;
+     flex: 1 100%;
 	justify-content: space-between;
 }
 
 .tabsNo button {
-    /* display: flex;
+	/* display: flex;
     align-items: center; */
-   
+
 	border: 1px solid #d8d6d6;
 	color: #242323;
 	font-weight: bold;
@@ -45,9 +46,9 @@
 
 .contentNo {
 	/* padding: 10px 15px 50px 20px; */
-    padding: 30px 20px;
+	padding: 30px 20px;
 	margin-top: 10px;
-    margin-right: 5px;;
+	margin-right: 5px;
 	background-color: #ededed;
 	border-radius: 10px;
 	font-weight: 300;
@@ -61,4 +62,12 @@
 .contentNo,
 button {
 	font-size: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+	.tabsNo button {
+		flex: 0  auto;
+	}
 }

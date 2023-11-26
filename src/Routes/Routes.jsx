@@ -1,8 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../pages/Home/Home/Home";
-import Packages from "../pages/Packages/Packages";
-
+import HomeInternet from "../pages/Packages/HomeInternet/HomeInternet";
+import Packages from "../pages/Packages/Packages/Packages";
+import Corporate from "../pages/Packages/Corporate/Corporate";
+import EkDesh from "../pages/Packages/EkDesh/EkDesh";
+import SME from "../pages/Packages/SME/SME";
 
 const router = createBrowserRouter([
 	{
@@ -14,11 +17,30 @@ const router = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: "/packages",
+				path: "/packages/",
 				element: <Packages />,
+				children: [
+					{
+						path: "home_internet",
+						element: <HomeInternet />,
+					},
+					{
+						path: "corporate",
+						element:<Corporate/>
+					},
+					{
+						path: "sme",
+						element:<SME/>
+					},
+					{
+						path: "ek_desh_ek_rate",
+						element: <EkDesh/>
+					}
+
+				],
 			},
 		],
 	},
 ]);
 
-export default router
+export default router;

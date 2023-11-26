@@ -107,8 +107,8 @@ const About = () => {
 					</div>
 
 					{/* Tab */}
-
-					<Tabs/>
+{/* 
+					<Tabs/> */}
 
 				
 

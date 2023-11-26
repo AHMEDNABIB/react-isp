@@ -1,18 +1,24 @@
 import "animate.css";
 import React, { useEffect, useState } from "react";
-import { Image } from "../../../Image";
+// import { Image } from "../../../Image";
+
+import {image} from "../../../data/data-image"
 
 const Banner = () => {
 	const [cur, setCur] = useState(0);
-	const lengthArr = Image.length - 1;
+	const lengthArr = image.length - 1;
 
 	const pre = () => {
-		console.log("clicked");
+		console.log(lengthArr);
 		setCur(cur === 0 ? lengthArr : cur - 1);
 	};
 
 	const next = () => {
+		
 		setCur(cur === lengthArr ? 0 : cur + 1);
+
+		
+
 	};
 
 	useEffect(() => {
@@ -32,7 +38,7 @@ const Banner = () => {
 	
 
 		<div className="carousel w-full h-[800px]">
-			{Image.map((u, i) => {
+			{image.map((u, i) => {
 				return (
 					cur == i && (
 						<div

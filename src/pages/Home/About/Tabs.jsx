@@ -34,27 +34,27 @@ const Tabs = () => {
 	};
 
 	return (
-		<div className="containerTabs ">
-			<div className="tabsNo  ">
+		<div className="main">
+			<div className="lg:flex w-[605px] border border-[#d8d6d6] text-[#242323] cursor-pointer p-4  mx-5 rounded-md">
 				{tabs.map((tab, i) => (
 					<button
-						className="flex items-center "
+						className="flex items-center  "
 						key={i}
 						id={tab.id}
 						disabled={currentTab === `${tab.id}`}
 						onClick={handleTabClick}>
 						{tab.tabTitle === "Our Mission" ? (
-							<FaHome className="mx-1 text-lg" />
+							<FaHome className="mx-1 text-xl" />
 						) : (
 							""
 						)}
 						{tab.tabTitle === "Our Vision" ? (
-							<MdOutlinePerson2 className="mx-1 text-lg" />
+							<MdOutlinePerson2 className="mx-1 text-xl" />
 						) : (
 							""
 						)}
 						{tab.tabTitle === "Our Value" ? (
-							<MdEmail className="mx-1 text-lg " />
+							<MdEmail className="mx-1 text-xl " />
 						) : (
 							""
 						)}
@@ -65,7 +65,7 @@ const Tabs = () => {
 					</button>
 				))}
 			</div>
-			<div className="contentNo">
+			<div className="w-80">
 				{tabs.map((tab, i) => (
 					<div key={i}>
 						{currentTab === `${tab.id}` && (

@@ -7,7 +7,7 @@ import { TbWorld } from "react-icons/tb";
 
 const Services = () => {
 	return (
-		<div className="hero h-[800px]  bg-[#fff]">
+		<div className="hero py-12  bg-[#fff]">
 			<div className="hero-content flex-col md:flex-col">
 				<div className="items-center">
 					<h1 className="text-5xl font-bold text-center">

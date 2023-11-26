@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { MarqueeImage1 } from "../../../Image";
+import { marqueeImage1 } from "../../../data/data-image";
 
 const MarqueeImage = () => {
 	return (
@@ -21,7 +21,7 @@ const MarqueeImage = () => {
 						bottom: "0",
 					}}>
 					<div className="flex  ">
-						{MarqueeImage1.map((u) => {
+						{marqueeImage1.map((u) => {
 							return (
 								<div
 									key={u.path}
