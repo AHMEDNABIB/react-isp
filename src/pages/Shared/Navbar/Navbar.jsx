@@ -55,9 +55,9 @@ const Navbar = () => {
 				<a className="text-base font-base  hover:text-primary">OFFER</a>
 			</li>
 			<li>
-				<a className="text-base font-base  hover:text-[#5ca8ce] ">
+				<Link to="/about" className="text-base font-base  hover:text-[#5ca8ce] ">
 					ABOUT US
-				</a>
+				</Link>
 			</li>
 			<li>
 				<a className="text-base font-base  hover:text-[#5ca8ce] ">

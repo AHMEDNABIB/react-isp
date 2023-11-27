@@ -2,7 +2,7 @@ import React from "react";
 import { FaBook, FaShoppingBasket } from "react-icons/fa";
 import { HiHomeModern } from "react-icons/hi2";
 import { IoMdBusiness } from "react-icons/io";
-import { MdCable, MdLabel, MdOutlineAddBusiness } from "react-icons/md";
+import {  MdOutlineAddBusiness } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 
 const Services = () => {
@@ -22,108 +22,11 @@ const Services = () => {
 
 				<progress className="progress progress-primary bg-[#878be7] w-56 mb-10 "></progress>
 
-				{/* <div className="flex flex-row flex-wrap   ">
-					
-					<div className="mx-5 sm:flex-col">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-8">
-								<TbWorld className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">
-									Wholesale Internet
-								</h2>
-							</div>
-						</div>
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<FaBook className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">
-									Educational Institute
-								</h2>
-							</div>
-						</div>
-					</div>
-
-				
-
-					<div className="mx-5">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<HiHomeModern className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">
-									Residential Internet
-								</h2>
-							</div>
-						</div>
-
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<MdCable className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">
-									Dark Fiber Connectivity
-								</h2>
-							</div>
-						</div>
-					</div>
-
-				
-
-					<div className="mx-5">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<IoMdBusiness className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">
-									Business Internet
-								</h2>
-							</div>
-						</div>
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<FaShoppingBasket className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">
-									Broadband Reseller
-								</h2>
-							</div>
-						</div>
-					</div>
-
-					
-					<div className="mx-5">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<MdOutlineAddBusiness className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">SME</h2>
-							</div>
-						</div>
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
-							<figure className="mt-6">
-								<MdLabel className="text-primary text-6xl group-hover:text-white duration-1000  " />
-							</figure>
-							<div className="card-body items-center text-center ">
-								<h2 className="card-title ">MPLS</h2>
-							</div>
-						</div>
-					</div>
-				</div> */}
-
 				<div className="flex flex-row flex-wrap justify-center  w-fit   ">
 					<div className="items-center text-center mx-10  mt-[-3] ">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
+						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf]  duration-1000 transform hover:scale-110 ">
 							<figure className="mt-8">
-								<TbWorld className="text-primary text-6xl group-hover:text-white duration-1000  " />
+								<TbWorld className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
 							</figure>
 							<div className="card-body items-center text-center ">
 								<h2 className="card-title ">
@@ -133,9 +36,9 @@ const Services = () => {
 						</div>
 					</div>
 					<div className="items-center text-center mx-10  mt-[-3] ">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
+						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf] duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
-								<HiHomeModern className="text-primary text-6xl group-hover:text-white duration-1000  " />
+								<HiHomeModern className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
 							</figure>
 							<div className="card-body items-center text-center ">
 								<h2 className="card-title ">
@@ -145,9 +48,9 @@ const Services = () => {
 						</div>
 					</div>
 					<div className="items-center text-center mx-10  mt-[-3] ">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
+						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf]  duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
-								<IoMdBusiness className="text-primary text-6xl group-hover:text-white duration-1000  " />
+								<IoMdBusiness className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
 							</figure>
 							<div className="card-body items-center text-center ">
 								<h2 className="card-title ">
@@ -157,9 +60,9 @@ const Services = () => {
 						</div>
 					</div>
 					<div className="items-center text-center mx-10  mt-[-3] ">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
+						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf]  duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
-								<MdOutlineAddBusiness className="text-primary text-6xl group-hover:text-white duration-1000  " />
+								<MdOutlineAddBusiness className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
 							</figure>
 							<div className="card-body items-center text-center ">
 								<h2 className="card-title ">SME</h2>
@@ -167,9 +70,9 @@ const Services = () => {
 						</div>
 					</div>
 					<div className="items-center text-center mx-10  mt-[-3] ">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
+						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf] duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
-								<FaBook className="text-primary text-6xl group-hover:text-white duration-1000  " />
+								<FaBook className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
 							</figure>
 							<div className="card-body items-center text-center ">
 								<h2 className="card-title ">
@@ -179,12 +82,10 @@ const Services = () => {
 						</div>
 					</div>
 
-				
-
 					<div className="items-center text-center mx-10  mt-[-3] ">
-						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#878be7]  duration-1000 transform hover:scale-110 ">
+						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf] duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
-								<FaShoppingBasket className="text-primary text-6xl group-hover:text-white duration-1000  " />
+								<FaShoppingBasket className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
 							</figure>
 							<div className="card-body items-center text-center ">
 								<h2 className="card-title ">
@@ -193,8 +94,6 @@ const Services = () => {
 							</div>
 						</div>
 					</div>
-
-					
 				</div>
 			</div>
 		</div>

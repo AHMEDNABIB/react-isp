@@ -6,6 +6,7 @@ import Packages from "../pages/Packages/Packages/Packages";
 import Corporate from "../pages/Packages/Corporate/Corporate";
 import EkDesh from "../pages/Packages/EkDesh/EkDesh";
 import SME from "../pages/Packages/SME/SME";
+import About from "../pages/About/About/About";
 
 const router = createBrowserRouter([
 	{
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: "/packages/",
+				path: "packages",
 				element: <Packages />,
 				children: [
 					{
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
 
 				],
 			},
+			{
+				path: 'about',
+				element:<About/>
+			}
 		],
 	},
 ]);
