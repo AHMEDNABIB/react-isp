@@ -7,6 +7,7 @@ import Corporate from "../pages/Packages/Corporate/Corporate";
 import EkDesh from "../pages/Packages/EkDesh/EkDesh";
 import SME from "../pages/Packages/SME/SME";
 import About from "../pages/About/About/About";
+import Contact from "../pages/Contact/Contact/Contact";
 
 const router = createBrowserRouter([
 	{
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
 			{
 				path: 'about',
 				element:<About/>
+			},
+			{
+				path: 'contact',
+				element:<Contact/>
 			}
 		],
 	},

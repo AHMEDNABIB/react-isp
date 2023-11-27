@@ -20,7 +20,9 @@ const Mission = () => {
 						className="max-w-2xl rounded-lg shadow-2xl"
 					/>
 					<div className="mx-8">
-						<ul className="list-disc font-semibold ">
+						<ul
+							className="list-disc font-semibold "
+							data-aos="fade-left">
 							<li className="my-2">
 								To penetrate all key areas of Bangladesh's fixed
 								line and mobile network

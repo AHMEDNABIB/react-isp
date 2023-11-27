@@ -12,8 +12,10 @@ const Vision = () => {
 						</h1>
 					</div>
 
-					<div className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit ">
-						<div className="items-center text-center    ">
+					<div
+						className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit "
+						data-aos="zoom-out-right">
+						<div className="items-center text-center">
 							<div className="card w-96 bg-base-100 shadow-xl rounded-none  duration-1000 transform hover:scale-110">
 								<div className="card-body">
 									<h3 className="text-xl font-semibold">

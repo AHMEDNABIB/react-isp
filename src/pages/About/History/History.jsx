@@ -1,11 +1,21 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 
 const History = () => {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	return (
 		<div className="hero my-16 bg-base-100">
 			<div className="hero-content text-center p-10 shadow-xl">
 				<div className="max-w-5xl">
-					<h1 className="text-4xl font-bold">
+					<h1
+						className="text-4xl font-bold "
+						data-aos="fade-zoom-in"
+						data-aos-offset="200"
+						data-aos-easing="ease-in-sine"
+						data-aos-duration="600">
 						STARGATE COMMUNICATIONS LTD.
 					</h1>
 					<div className="py-6">

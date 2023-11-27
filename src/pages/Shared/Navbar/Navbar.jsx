@@ -60,9 +60,9 @@ const Navbar = () => {
 				</Link>
 			</li>
 			<li>
-				<a className="text-base font-base  hover:text-[#5ca8ce] ">
+				<Link to="/contact" className="text-base font-base  hover:text-[#5ca8ce] ">
 					CONTACT US
-				</a>
+				</Link>
 			</li>
 		</>
 	);

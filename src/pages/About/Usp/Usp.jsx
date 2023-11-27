@@ -13,7 +13,9 @@ const Usp = () => {
 						</h1>
 					</div>
 
-					<div className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit ">
+					<div
+						className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit "
+						data-aos="fade-up-right">
 						<div className="items-center text-center    ">
 							<div className="card w-96 bg-base-100 h-96 shadow-xl">
 								<figure className="mt-6">
