@@ -8,6 +8,7 @@ import EkDesh from "../pages/Packages/EkDesh/EkDesh";
 import SME from "../pages/Packages/SME/SME";
 import About from "../pages/About/About/About";
 import Contact from "../pages/Contact/Contact/Contact";
+import Covarage from "../pages/Covarage/Covarage/Covarage";
 
 const router = createBrowserRouter([
 	{
@@ -28,27 +29,30 @@ const router = createBrowserRouter([
 					},
 					{
 						path: "corporate",
-						element:<Corporate/>
+						element: <Corporate />,
 					},
 					{
 						path: "sme",
-						element:<SME/>
+						element: <SME />,
 					},
 					{
 						path: "ek_desh_ek_rate",
-						element: <EkDesh/>
-					}
-
+						element: <EkDesh />,
+					},
 				],
 			},
 			{
-				path: 'about',
-				element:<About/>
+				path: "about",
+				element: <About />,
 			},
 			{
-				path: 'contact',
-				element:<Contact/>
-			}
+				path: "contact",
+				element: <Contact />,
+			},
+			{
+				path: "covarage",
+				element: <Covarage />,
+			},
 		],
 	},
 ]);

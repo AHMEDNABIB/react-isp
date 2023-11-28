@@ -42,9 +42,9 @@ const Navbar = () => {
 			</li>
 
 			<li>
-				<a className="text-base font-base  hover:text-primary ">
+				<Link to="/covarage" className="text-base font-base  hover:text-primary ">
 					COVERAGE
-				</a>
+				</Link>
 			</li>
 			<li>
 				<a className="text-base font-base  hover:text-primary ">
