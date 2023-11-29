@@ -58,10 +58,6 @@ const Packages = () => {
 					</Link>
 				</div>
 
-
-
-				
-
 				<div className="max-w-screen-xl mx-auto">
 					<Outlet />
 				</div>

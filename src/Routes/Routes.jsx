@@ -9,6 +9,7 @@ import SME from "../pages/Packages/SME/SME";
 import About from "../pages/About/About/About";
 import Contact from "../pages/Contact/Contact/Contact";
 import Covarage from "../pages/Covarage/Covarage/Covarage";
+import Paybill from "../pages/Paybill/Paybill/Paybill";
 
 const router = createBrowserRouter([
 	{
@@ -53,6 +54,11 @@ const router = createBrowserRouter([
 				path: "covarage",
 				element: <Covarage />,
 			},
+			{
+				path: "paybill",
+				element:<Paybill/>
+			}
+			
 		],
 	},
 ]);

@@ -47,9 +47,9 @@ const Navbar = () => {
 				</Link>
 			</li>
 			<li>
-				<a className="text-base font-base  hover:text-primary ">
+				<Link to="/paybill" className="text-base font-base  hover:text-primary ">
 					PAY BILL
-				</a>
+				</Link>
 			</li>
 			<li>
 				<a className="text-base font-base  hover:text-primary">OFFER</a>
