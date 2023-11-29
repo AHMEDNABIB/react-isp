@@ -5,7 +5,7 @@ import {  AiTwotoneMail } from "react-icons/ai";
 const Footer = () => {
 	return (
 		<>
-			<footer className="footer p-1 lg:p-4 flex  lg:gap-44   text-neutral-content max-w-screen-2xl mx-auto  ">
+			<footer className="footer p-7    text-neutral-content max-w-screen-2xl mx-auto  ">
 				<ul>
 					<header className="footer-title">Company</header>
 					<li className="link link-hover hover:text-[#2791c0]">

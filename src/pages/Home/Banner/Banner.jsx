@@ -47,7 +47,7 @@ const Banner = () => {
 							<img src={u.path} className="w-full" />
 							<div className="absolute rounded-xl flex items-center h-full left-0 px-20 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00)] ">
 								<div className="text-white pl-12 space-y-7">
-									<h2 className="text-6xl font-bold w-1/2 animate__animated animate__fadeIn">
+									<h2 className="text-6xl font-bold w-1/2  animate__animated animate__fadeIn">
 										{u.title}
 									</h2>
 									<p className="w-1/2 animate__animated animate__fadeIn">
