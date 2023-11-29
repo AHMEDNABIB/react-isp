@@ -8,7 +8,7 @@ const ContactFrom = () => {
 				<div className="hero-content flex-col lg:flex-row">
 					<img
 						src={image}
-						className="max-w-2xl rounded-lg  shadow-2xl"
+						className=" rounded-lg  shadow-2xl"
 					/>
 					<div>
 						<div className="container mx-auto my-20 border border-gray-500 bg-white">

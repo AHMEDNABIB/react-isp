@@ -12,7 +12,7 @@ const Address = () => {
 
 					<div className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit ">
 						<div className="items-center text-center    ">
-							<div className="card px-20 py-8 rounded-none bg-base-100 shadow-xl">
+							<div className="card px-14 lg:h-52 rounded-none bg-base-100 shadow-xl">
 								<figure className="mt-6">
 									<MdEmail className="text-[#5f66bf]  text-2xl group-hover:text-white duration-1000  " />
 								</figure>
@@ -23,7 +23,7 @@ const Address = () => {
 							</div>
 						</div>
 						<div className="items-center text-center   ">
-							<div className="card px-5 py-4 rounded-none bg-base-100 shadow-xl">
+							<div className="card  lg:h-52 rounded-none bg-base-100 shadow-xl">
 								<figure className="mt-6">
 									<FaMapMarkerAlt className="text-[#5f66bf]  text-2xl group-hover:text-white duration-1000  " />
 								</figure>
@@ -38,7 +38,7 @@ const Address = () => {
 					
 
 						<div className="items-center text-center   ">
-							<div className="card px-20 py-8 rounded-none bg-base-100 shadow-xl">
+							<div className="card px-20 lg:h-52 rounded-none bg-base-100 shadow-xl">
 								<figure className="mt-6">
 									<FaPhone className="text-[#5f66bf]  text-2xl group-hover:text-white duration-1000  " />
 								</figure>

@@ -11,7 +11,7 @@ const Paybill = () => {
 
 	return (
 		<div>
-			<div className="hero m">
+			<div className="hero ">
 				<div className="hero-content text-center flex-col ">
 					<div className="max-w-xl">
 						<h1 className=" text-3xl  lg:text-5xl font-bold">
@@ -20,7 +20,7 @@ const Paybill = () => {
 					</div>
 					<div className="">
 						<div className="container mx-auto mt-12">
-							<div className="flex flex-col items-center justify-center max-w-xl">
+							<div className="flex flex-col items-center justify-center max-w-sm">
 								<ul className="flex space-x-2">
 									<li>
 										<a
@@ -53,7 +53,7 @@ const Paybill = () => {
 											openTab === 1 ? "block" : "hidden"
 										}>
 										{" "}
-										<ul className="timeline timeline-vertical items-start  lg:ml-[-200px]	 ml-[-350px] w-96">
+										<ul className="timeline timeline-vertical items-start  lg:ml-[-200px]	 ml-[-380px] w-96">
 											<li>
 												<div className="timeline-middle">
 													<FaBackward className="text-[#fff] bg-primary rounded-full   text-3xl p-2  " />
@@ -120,7 +120,7 @@ const Paybill = () => {
 										className={
 											openTab === 2 ? "block" : "hidden"
 										}>
-										<ul className="timeline timeline-vertical items-start lg:ml-[-200px]	 ml-[-350px] ">
+										<ul className="timeline timeline-vertical items-start lg:ml-[-200px]	 ml-[-380px] ">
 											<li>
 												<div className="timeline-middle">
 													<FaBackward className="text-[#fff] bg-primary rounded-full   text-3xl p-2  " />

@@ -14,7 +14,7 @@ const Covarage = () => {
 	return (
 		<>
 			<div
-				className="hero h-[300px] bg-gradient-to-r "
+				className="hero h-[300px]  "
 				style={{
 					backgroundImage: `url(${image})`,
 				}}>
@@ -28,7 +28,7 @@ const Covarage = () => {
 				</div>
 			</div>
 			<div>
-				<div className="hero ">
+				<div className="hero  ">
 					<div className="hero-content text-center items-center">
 						<div className="">
 							<CovarageMap isLoaded={isLoaded} />

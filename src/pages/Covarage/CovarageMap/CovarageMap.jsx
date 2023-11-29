@@ -48,7 +48,7 @@ const CovarageMap = (props) => {
 		},
    ];
    return isLoaded ? (
-		<GoogleMap mapContainerStyle={containerStyle} center={center} zoom={12}>
+		<GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14}>
 			{markers.map((marker) => {
 				return (
 					<div key={marker.name}>

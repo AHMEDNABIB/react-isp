@@ -3,7 +3,7 @@ import image from "../../../assets/image/3.jpg";
 
 const Mission = () => {
 	return (
-		<div className="w-screen-5xl">
+		<div className="lg:w-screen-5xl">
 			<div className="hero">
 				<div className="hero-content text-center">
 					<div className="max-w-4xl">
@@ -13,11 +13,11 @@ const Mission = () => {
 					</div>
 				</div>
 			</div>
-			<div className="hero my-16  ">
+			<div className="hero my-16   ">
 				<div className="hero-content flex-col lg:flex-row">
 					<img
 						src={image}
-						className="max-w-2xl rounded-lg shadow-2xl"
+						className="max-w-sm lg:max-w-2xl rounded-lg shadow-2xl"
 					/>
 					<div className="mx-8">
 						<ul
