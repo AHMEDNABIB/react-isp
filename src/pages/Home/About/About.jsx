@@ -5,21 +5,30 @@ import image from "../../../assets/image/7.jpg"
 
 import "animate.css";
 import { SlArrowRightCircle } from "react-icons/sl";
-import Tabs from "./Tabs";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const About = () => {
+	useEffect(() => {
+		AOS.init({
+			offset: 200,
+			duration: 600,
+			easing: "ease-in-sine",
+			delay: 500,
+		});
+	}, []);
 	return (
 		<div className="hero bg-[#f2f4f7]  mt-[-10px]">
 			<div className="hero-content flex-col lg:flex-row space-x-5">
-				<div className="lg:w-1/2  relative animate__animated animate__backInLeft ">
+				<div className="lg:w-1/2  relative  " data-aos="fade-right">
 					<img
 						src={image}
 						className=" rounded-lg shadow-2xl h-[630px]"
 					/>
 				</div>
 
-				<div className="lg:w-1/2  space-y-4 p-4">
+				<div className="lg:w-1/2  space-y-4 p-4" data-aos="fade-left">
 					<h5 className="text-xl text-primary font-bold">
 						LEGACY OF TRUST
 					</h5>
@@ -107,10 +116,8 @@ const About = () => {
 					</div>
 
 					{/* Tab */}
-{/* 
+					{/* 
 					<Tabs/> */}
-
-				
 
 					<button className="btn btn-primary rounded-full">
 						Discover more

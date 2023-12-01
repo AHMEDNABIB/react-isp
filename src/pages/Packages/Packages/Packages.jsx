@@ -1,5 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Heading from "../Heading/Heading";
+
 
 const Packages = () => {
 	const [toggle, setToggle] = useState(1);
@@ -8,8 +12,21 @@ const Packages = () => {
 	const handleNav = (index) => {
 		setToggle(index);
 	};
+
+	useEffect(() => {
+		AOS.init({
+			offset: 200,
+			duration: 600,
+			easing: "ease-in-sine",
+			delay: 500,
+		});
+	}, []);
 	return (
 		<div className=" min-h-screen  ">
+			{/* heading */}
+			<Heading/>
+
+			{/* tabs */}
 			<div className="p-6">
 				<h1 className="font-bold text-xl text-center md:text-3xl md:mt-12 ">
 					Internet Packages
@@ -63,7 +80,7 @@ const Packages = () => {
 					</div>
 				</div>
 
-				<div className="max-w-screen-xl mx-auto">
+				<div className="max-w-screen-xl mx-auto" >
 					<Outlet />
 				</div>
 			</div>

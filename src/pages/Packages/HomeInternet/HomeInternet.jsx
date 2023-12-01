@@ -8,7 +8,10 @@ const HomeInternet = () => {
 			<div className="flex flex-wrap justify-center">
 				{home.map((u) => {
 					return (
-						<div className="flex flex-col bg-base-200 rounded-lg shadow-md w-60  m-6 overflow-hidden " key={u.speed}>
+						<div
+							className="flex flex-col bg-base-200 rounded-lg shadow-md w-60  m-6 overflow-hidden "
+							key={u.speed}
+							data-aos="zoom-in">
 							<h2 className="text-center text-primary mt-4 px-2 pb-5">
 								{u.name}
 							</h2>
@@ -18,8 +21,8 @@ const HomeInternet = () => {
 
 							<div className="bg-white py-3   ">
 								<h2 className="text-center">
-									<span className="text-5xl">{ u.cost}</span> Tk/
-									Month
+									<span className="text-5xl">{u.cost}</span>{" "}
+									Tk/ Month
 								</h2>
 							</div>
 

@@ -7,7 +7,10 @@ import Services from "../Services/Services";
 import Solution from "../Solution/Solution";
 import Tabs from "../About/Tabs";
 
+
+
 const Home = () => {
+	
 	return (
 		<div>
 			<Banner></Banner>

@@ -2,16 +2,27 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Address = () => {
+	useEffect(() => {
+		AOS.init({
+			offset: 200,
+			duration: 600,
+			easing: "ease-in-sine",
+			delay: 500,
+		});
+	}, []);
 	return (
 		<div className="w-screen-5xl">
 			<div className="hero pt-12   bg-[#fff]">
 				<div className="hero-content flex-col md:flex-col">
-					
-
 					<div className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit ">
-						<div className="items-center text-center    ">
+						<div
+							className="items-center text-center"
+							data-aos="fade-left">
 							<div className="card px-14 lg:h-52 rounded-none bg-base-100 shadow-xl">
 								<figure className="mt-6">
 									<MdEmail className="text-[#5f66bf]  text-2xl group-hover:text-white duration-1000  " />
@@ -22,7 +33,9 @@ const Address = () => {
 								</div>
 							</div>
 						</div>
-						<div className="items-center text-center   ">
+						<div
+							className="items-center text-center"
+							data-aos="fade-left">
 							<div className="card  lg:h-52 rounded-none bg-base-100 shadow-xl">
 								<figure className="mt-6">
 									<FaMapMarkerAlt className="text-[#5f66bf]  text-2xl group-hover:text-white duration-1000  " />
@@ -34,10 +47,9 @@ const Address = () => {
 								</div>
 							</div>
 						</div>
-
-					
-
-						<div className="items-center text-center   ">
+						<div
+							className="items-center text-center"
+							data-aos="fade-left">
 							<div className="card px-20 lg:h-52 rounded-none bg-base-100 shadow-xl">
 								<figure className="mt-6">
 									<FaPhone className="text-[#5f66bf]  text-2xl group-hover:text-white duration-1000  " />

@@ -1,17 +1,29 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaBackward } from "react-icons/fa6";
 import { FaLightbulb } from "react-icons/fa";
 import { BsClipboard2DataFill } from "react-icons/bs";
 import { BsClipboardCheckFill } from "react-icons/bs";
 import { TbCoinTakaFilled } from "react-icons/tb";
 import BankPay from "../BankPay/BankPay";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Heading from "../Heading/Heading";
 
 const Paybill = () => {
+	useEffect(() => {
+		AOS.init({
+			offset: 200,
+			duration: 600,
+			easing: "ease-in-sine",
+			delay: 500,
+		});
+	}, []);
 	const [openTab, setOpenTab] = useState(1);
 
 	return (
 		<div>
-			<div className="hero ">
+			<Heading/>
+			<div className="hero mt-8 ">
 				<div className="hero-content text-center flex-col ">
 					<div className="max-w-xl">
 						<h1 className=" text-3xl  lg:text-5xl font-bold">
@@ -47,13 +59,15 @@ const Paybill = () => {
 										</a>
 									</li>
 								</ul>
-								<div className="p-3 mt-6 bg-white">
+								<div className="p-3 mt-6 bg-white" >
 									<div
 										className={
 											openTab === 1 ? "block" : "hidden"
 										}>
 										{" "}
-										<ul className="timeline timeline-vertical items-start  lg:ml-[-200px]	 ml-[-380px] w-96">
+										<ul
+											className="timeline timeline-vertical items-start lg:ml-[-200px] ml-[-380px] w-96"
+											>
 											<li>
 												<div className="timeline-middle">
 													<FaBackward className="text-[#fff] bg-primary rounded-full   text-3xl p-2  " />
@@ -66,7 +80,7 @@ const Paybill = () => {
 												</div>
 												<hr />
 											</li>
-											<li>
+											<li >
 												<hr />
 												<div className="timeline-middle">
 													<FaLightbulb className="text-[#fff] bg-primary rounded-full   text-3xl p-2  " />
@@ -119,8 +133,8 @@ const Paybill = () => {
 									<div
 										className={
 											openTab === 2 ? "block" : "hidden"
-										}>
-										<ul className="timeline timeline-vertical items-start lg:ml-[-200px]	 ml-[-380px] ">
+										} >
+										<ul className="timeline timeline-vertical items-start lg:ml-[-200px] ml-[-380px]">
 											<li>
 												<div className="timeline-middle">
 													<FaBackward className="text-[#fff] bg-primary rounded-full   text-3xl p-2  " />

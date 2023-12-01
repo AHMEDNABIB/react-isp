@@ -5,7 +5,20 @@ import { IoMdBusiness } from "react-icons/io";
 import {  MdOutlineAddBusiness } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Services = () => {
+
+	useEffect(() => {
+		AOS.init({
+			
+		
+			easing: "ease-in-sine",
+			
+		});
+	}, []);
 	return (
 		<div className="hero py-12  bg-[#fff]">
 			<div className="hero-content flex-col md:flex-col">
@@ -23,7 +36,9 @@ const Services = () => {
 				<progress className="progress progress-primary bg-[#878be7] w-56 mb-10 "></progress>
 
 				<div className="flex flex-row flex-wrap justify-center  w-fit   ">
-					<div className="items-center text-center mx-10  mt-[-3] ">
+					<div
+						className="items-center text-center mx-10  mt-[-3] "
+						data-aos="flip-left">
 						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf]  duration-1000 transform hover:scale-110 ">
 							<figure className="mt-8">
 								<TbWorld className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
@@ -35,7 +50,9 @@ const Services = () => {
 							</div>
 						</div>
 					</div>
-					<div className="items-center text-center mx-10  mt-[-3] ">
+					<div
+						className="items-center text-center mx-10  mt-[-3] "
+						data-aos="flip-left">
 						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf] duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
 								<HiHomeModern className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
@@ -47,7 +64,9 @@ const Services = () => {
 							</div>
 						</div>
 					</div>
-					<div className="items-center text-center mx-10  mt-[-3] ">
+					<div
+						className="items-center text-center mx-10  mt-[-3] "
+						data-aos="flip-left">
 						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf]  duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
 								<IoMdBusiness className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
@@ -59,7 +78,9 @@ const Services = () => {
 							</div>
 						</div>
 					</div>
-					<div className="items-center text-center mx-10  mt-[-3] ">
+					<div
+						className="items-center text-center mx-10  mt-[-3] "
+						data-aos="flip-left">
 						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf]  duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
 								<MdOutlineAddBusiness className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
@@ -69,7 +90,9 @@ const Services = () => {
 							</div>
 						</div>
 					</div>
-					<div className="items-center text-center mx-10  mt-[-3] ">
+					<div
+						className="items-center text-center mx-10  mt-[-3] "
+						data-aos="flip-left">
 						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf] duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
 								<FaBook className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
@@ -82,7 +105,9 @@ const Services = () => {
 						</div>
 					</div>
 
-					<div className="items-center text-center mx-10  mt-[-3] ">
+					<div
+						className="items-center text-center mx-10  mt-[-3]  "
+						data-aos="flip-left">
 						<div className="card relative w-80 h-48 bg-base-100 shadow-xl mb-5 group hover:text-white hover:bg-[#5f66bf] duration-1000 transform hover:scale-110 ">
 							<figure className="mt-6">
 								<FaShoppingBasket className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
