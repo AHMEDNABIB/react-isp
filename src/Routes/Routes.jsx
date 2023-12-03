@@ -56,9 +56,12 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "paybill",
-				element:<Paybill/>
-			}
-			
+				element: <Paybill />,
+			},
+			{
+				path: "offers",
+				element: <Paybill />,
+			},
 		],
 	},
 ]);

@@ -9,14 +9,14 @@ export const image = [
 	},
 	{
 		id: 2,
-		path: "../../image/6.jpg",
+		path: "../../image/10.jpg",
 		title: "High Speed Internet Connection",
 		btnName: "View Our Plan",
 		link: "https://www.youtube.com/watch?v=SkSdUUcqn9w&list=LL&index=4&t=440s",
 	},
 	{
 		id: 3,
-		path: "../../image/9.jpg",
+		path: "../../image/18.jpg",
 		title: "Get Our Dedicated Services.We Help to Grow Your Business",
 		btnName: "Services",
 	},

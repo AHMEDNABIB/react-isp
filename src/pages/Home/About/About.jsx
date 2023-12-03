@@ -1,7 +1,7 @@
 import React from "react";
 
 // import image from "../../../../public/image/7.jpg";
-import image from "../../../assets/image/7.jpg"
+
 
 import "animate.css";
 import { SlArrowRightCircle } from "react-icons/sl";
@@ -20,7 +20,7 @@ const About = () => {
 		});
 	}, []);
 	return (
-		<div className="hero bg-[#f2f4f7]  mt-[-10px]">
+		<div className="hero bg-[#f2f4f7] py-20  mt-[-10px]">
 			<div className="hero-content flex-col lg:flex-row space-x-5">
 				<div className="lg:w-1/2  space-y-4 p-4" data-aos="fade-right">
 					<h5 className="text-lg text-primary font-bold">
