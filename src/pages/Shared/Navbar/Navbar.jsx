@@ -52,7 +52,7 @@ const Navbar = () => {
 				</Link>
 			</li>
 			<li>
-				<a className="text-base font-base  hover:text-primary">OFFER</a>
+				<Link to="offers" className="text-base font-base  hover:text-primary">OFFER</Link>
 			</li>
 			<li>
 				<Link to="/about" className="text-base font-base  hover:text-[#5ca8ce] ">

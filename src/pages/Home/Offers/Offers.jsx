@@ -3,6 +3,7 @@ import image from "../../../assets/image/5.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Offers = () => {
 
@@ -48,9 +49,9 @@ const Offers = () => {
 										
 									</div>
 									<div className="w-10/12 mt-5 mx-auto">
-										<button className="btn px-8 btn-primary rounded-full">
+										<Link to="/offers" className="btn px-8 btn-primary rounded-full">
 											Learn More
-										</button>
+										</Link>
 									</div>
 								</div>
 							</div>

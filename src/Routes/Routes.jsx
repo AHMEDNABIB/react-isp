@@ -10,6 +10,7 @@ import About from "../pages/About/About/About";
 import Contact from "../pages/Contact/Contact/Contact";
 import Covarage from "../pages/Covarage/Covarage/Covarage";
 import Paybill from "../pages/Paybill/Paybill/Paybill";
+import Offers from "../pages/Offers/Offers";
 
 const router = createBrowserRouter([
 	{
@@ -60,7 +61,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "offers",
-				element: <Paybill />,
+				element: <Offers />,
 			},
 		],
 	},
