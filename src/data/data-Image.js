@@ -1,7 +1,7 @@
 export const image = [
 	{
 		id: 1,
-		path: "../../image/10.jpg",
+		path: "../../image/19.jpg",
 		title: "Connect with Stargate's Latest Technology",
 		des: "Stargate Communications Ltd. offers Premium Dedicated Internet leased line for Home,Enterprise, SME,and Educational Institutions at highly competitive prices.",
 		btnName: "Get Connection",

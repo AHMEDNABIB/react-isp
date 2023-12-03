@@ -11,7 +11,7 @@ const Solution = () => {
 			<div className="hero p-16">
 				<div className="hero-content flex-col">
 					<div className="items-center">
-						<h1 className="text-5xl font-bold text-center">
+						<h1 className="text-4xl font-bold text-center">
 							Why Choose Us
 						</h1>
 

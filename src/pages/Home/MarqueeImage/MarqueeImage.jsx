@@ -5,7 +5,7 @@ import { marqueeImage1 } from "../../../data/data-image";
 const MarqueeImage = () => {
 	return (
 		<div className="p-6">
-			<h1 className="text-center text-5xl my-5 pb-6 font-bold ">
+			<h1 className="text-center text-4xl my-5 pb-6 font-bold ">
 				Our Technology partner
 			</h1>
 

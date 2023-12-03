@@ -45,7 +45,7 @@ const BankPay = () => {
 										Account Name:
 									</span>
 									<span className="block tablet:inline-block font-medium text-slate-900">
-										Xplore Net BD
+										Stargate Internet
 									</span>
 								</p>
 								<p className="text-base text-slate-700">
@@ -96,7 +96,7 @@ const BankPay = () => {
 										Account Name:
 									</span>
 									<span className="block tablet:inline-block font-medium text-slate-900">
-										Xplore Net BD
+										Stargate Internet
 									</span>
 								</p>
 								<p className="text-base text-slate-700">
@@ -147,7 +147,7 @@ const BankPay = () => {
 										Account Name:
 									</span>
 									<span className="block tablet:inline-block font-medium text-slate-900">
-										Xplore Net BD
+										Stargate Internet
 									</span>
 								</p>
 								<p className="text-base text-slate-700">

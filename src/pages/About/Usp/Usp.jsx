@@ -26,7 +26,7 @@ const Usp = () => {
 										TRULY UNLIMITED BROADBAND
 									</h2>
 									<p>
-										Alliance Broadband provides "TRULY
+										Stargate Internet provides "TRULY
 										UNLIMITED HIGH SPEED BROADBAND"
 										packages, No more painful buffering.
 									</p>
@@ -44,7 +44,7 @@ const Usp = () => {
 										STRONG CUSTOMER FOCUS
 									</h2>
 									<p>
-										Alliance Broadband constantly endeavors
+										Stargate Internet constantly endeavors
 										to promote client interest come what
 										may. From installing the state of the
 										art equipment's at our Network Operating
@@ -66,7 +66,7 @@ const Usp = () => {
 										LEGENDARY CUSTOMER SERVICE
 									</h2>
 									<p>
-										Alliance Broadband is almost synonymous
+										Stargate Internetis almost synonymous
 										with its top notch Customer Service from
 										easy complaint registration to
 										resolution, the Turnaround Time (TAT) is
@@ -107,7 +107,7 @@ const Usp = () => {
 										SMART ECONOMICS
 									</h2>
 									<p>
-										Alliance Broadband believes "Smart
+										Stargate Internetbelieves "Smart
 										Economics" for its client. Our plans are
 										robust yet competitive devised to serve
 										all our customer segments with enormous

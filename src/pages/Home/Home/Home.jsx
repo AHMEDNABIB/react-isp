@@ -17,11 +17,11 @@ const Home = () => {
 
 			<About></About>
 
-			<div className="bg-[#f2f4f7]">
+			{/* <div className="bg-[#f2f4f7]">
 				<div className=" mx-auto  ">
 					<Services></Services>
 				</div>
-			</div>
+			</div> */}
 
 			<div className="bg-[#f2f4f7]">
 				<div className="max-w-screen-2xl mx-auto  ">
