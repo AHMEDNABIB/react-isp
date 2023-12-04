@@ -4,7 +4,7 @@ import { corporate } from "../../../data/data-package";
 
 const Corporate = () => {
 	return (
-		<div className="mt-10">
+		<div className="">
 			<div className="flex flex-wrap justify-center">
 				{corporate.map((u) => {
 					return (

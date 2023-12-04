@@ -5,7 +5,7 @@ import "./HomeInternet.css";
 
 const HomeInternet = () => {
 	return (
-		<div className="mt-10">
+		<div className="">
 			<div className="flex flex-wrap justify-center">
 				{home.map((u) => {
 					return (

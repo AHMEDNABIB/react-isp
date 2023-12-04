@@ -2,7 +2,7 @@ import React from "react";
 import { ekdesh } from "../../../data/data-package";
 const EkDesh = () => {
 	return (
-		<div className="mt-10">
+		<div className="">
 			<div className="flex flex-wrap justify-center">
 				{ekdesh.map((u) => {
 					return (

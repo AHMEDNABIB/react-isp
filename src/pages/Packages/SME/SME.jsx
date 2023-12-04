@@ -3,7 +3,7 @@ import { sme } from "../../../data/data-package";
 
 const SME = () => {
 	return (
-		<div className="mt-10">
+		<div className="">
 			<div className="flex flex-wrap justify-center ">
 				{sme.map((u) => {
 					return (
