@@ -24,7 +24,7 @@ const Packages = () => {
 	return (
 		<div className=" min-h-screen  ">
 			{/* heading */}
-			<Heading/>
+			<Heading />
 
 			{/* tabs */}
 			<div className="p-6">
@@ -34,13 +34,13 @@ const Packages = () => {
 				<div className="hero  ">
 					<div className="hero-content text-center">
 						<div className="w-[-100px]  my-10">
-							<div className="flex h-10  mx-[-120px] ">
+							<div className="flex h-10 flex-col mb-24 gap-3 md:flex-row lg:flex-row lg:mb-0 ">
 								<Link
 									onClick={() => handleNav(1)}
 									to="/packages/home_internet"
 									className={
 										toggle === 1 && pathname
-											? " bg-primary text-white btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md  "
+											? " bg-primary text-white btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md  "
 											: " bg-base-300 btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 									}>
 									HOME INTERNET
@@ -50,8 +50,8 @@ const Packages = () => {
 									to="/packages/corporate"
 									className={
 										toggle === 2
-											? " bg-primary text-white btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
-											: " bg-base-300 btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
+											? " bg-primary text-white btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
+											: " bg-base-300 btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 									}>
 									CORPORATE
 								</Link>
@@ -60,8 +60,8 @@ const Packages = () => {
 									to="/packages/sme"
 									className={
 										toggle === 3
-											? " bg-primary text-white btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
-											: " bg-base-300 btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
+											? " bg-primary text-white btn btn-ghost w-44  p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
+											: " bg-base-300 btn btn-ghost w-44 p-4 mx-1  border-md  border-1 border-base-400 rounded-md"
 									}>
 									SME
 								</Link>
@@ -70,8 +70,8 @@ const Packages = () => {
 									to="/packages/ek_desh_ek_rate"
 									className={
 										toggle === 4
-											? " bg-primary text-white btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
-											: " bg-base-300 btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
+											? " bg-primary text-white btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
+											: " bg-base-300 btn btn-ghost w-44  p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 									}>
 									EK DESH EK RATE
 								</Link>
@@ -80,7 +80,7 @@ const Packages = () => {
 					</div>
 				</div>
 
-				<div className="max-w-screen-xl mx-auto" >
+				<div className="max-w-screen-xl mx-auto">
 					<Outlet />
 				</div>
 			</div>
