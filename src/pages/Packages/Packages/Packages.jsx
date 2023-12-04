@@ -40,7 +40,7 @@ const Packages = () => {
 									to="/packages/home_internet"
 									className={
 										toggle === 1 && pathname
-											? " bg-primary text-white btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md "
+											? " bg-primary text-white btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md  "
 											: " bg-base-300 btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 									}>
 									HOME INTERNET
