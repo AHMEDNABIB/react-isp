@@ -9,7 +9,16 @@ const PackageForm = () => {
 
 	return (
 		<div className=" ">
-			<div className="max-w-5xl mx-auto">
+			<div className="hero bg-base-200">
+				<div className="hero-content text-center">
+					<div className="max-w-xl">
+						<h1 className="text-3xl font-bold">
+							Internet Service Application Form
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div className="max-w-5xl mt-10 mx-auto">
 				<div className="">
 					<div
 						id="section2"
@@ -225,9 +234,7 @@ const PackageForm = () => {
 									<textarea
 										className="form-textarea block w-full  border-2  border-gray-300 rounded-md"
 										id="my-textarea"
-										
 										rows={2}
-										
 									/>
 								</div>
 							</div>
@@ -311,10 +318,11 @@ const PackageForm = () => {
 									<select
 										name=""
 										className="form-select block w-full  border-2 p-2 border-gray-300 rounded-md"
-                                        id="my-select"
-                                        disabled
-                                    >
-                                        <option value="Default">{ state.speed }</option>
+										id="my-select"
+										disabled>
+										<option value="Default">
+											{state.speed}
+										</option>
 										<option value="A">A</option>
 										<option value="B">B</option>
 										<option value="C">C</option>

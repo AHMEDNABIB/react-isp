@@ -90,7 +90,7 @@ const HomeInternet = () => {
 											onClick={() =>
 												navigate({
 													pathname: "/order-form",
-													search: `?speed=${u.name}`,
+													search: `?package=${u.type}&plan=${u.name}`,
 													
 												},
 													{ state: u }
