@@ -11,6 +11,7 @@ import Contact from "../pages/Contact/Contact/Contact";
 import Covarage from "../pages/Covarage/Covarage/Covarage";
 import Paybill from "../pages/Paybill/Paybill/Paybill";
 import Offers from "../pages/Offers/Offers";
+import PackageForm from "../pages/Packages/PackageForm/PackageForm";
 
 const router = createBrowserRouter([
 	{
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
 					{
 						path: "home_internet",
 						element: <HomeInternet />,
+						
 					},
 					{
 						path: "corporate",
@@ -62,6 +64,10 @@ const router = createBrowserRouter([
 			{
 				path: "offers",
 				element: <Offers />,
+			},
+			{
+				path: "order-form/",
+				element: <PackageForm />,
 			},
 		],
 	},

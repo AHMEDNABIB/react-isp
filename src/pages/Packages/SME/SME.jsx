@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { sme } from "../../../data/data-package";
 
 const SME = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="">
 			<div className="flex flex-wrap justify-center ">
@@ -20,13 +22,13 @@ const SME = () => {
 									className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content mb-5  rounded-full"
 									onClick={() =>
 										document
-											.getElementById("my_modal_5")
+											.getElementById(`${u.name}`)
 											.showModal()
 									}>
 									Order Now
 								</button>
 								<dialog
-									id="my_modal_5"
+									id={u.name}
 									className="modal modal-middle  sm:modal-middle  ">
 									<div className="modal-box ">
 										<form method="dialog">
@@ -81,7 +83,17 @@ const SME = () => {
 												Payment Plan Changes.
 											</p>
 										</div>
-										<button className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content rounded-full">
+										<button
+											onClick={() =>
+												navigate(
+													{
+														pathname: "/order-form",
+														search: `?speed=${u.name}`,
+													},
+													{ state: u }
+												)
+											}
+											className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content rounded-full">
 											Accept
 										</button>
 									</div>

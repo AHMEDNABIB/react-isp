@@ -1,8 +1,10 @@
 import React from "react";
 
 import { corporate } from "../../../data/data-package";
+import { useNavigate } from "react-router-dom";
 
 const Corporate = () => {
+	const navigate = useNavigate();
 	return (
 		<div className="">
 			<div className="flex flex-wrap justify-center">
@@ -21,13 +23,13 @@ const Corporate = () => {
 									className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content mb-5  rounded-full"
 									onClick={() =>
 										document
-											.getElementById("my_modal_5")
+											.getElementById(`${u.name}`)
 											.showModal()
 									}>
 									Order Now
 								</button>
 								<dialog
-									id="my_modal_5"
+									id={u.name}
 									className="modal modal-middle  sm:modal-middle  ">
 									<div className="modal-box ">
 										<form method="dialog">
@@ -40,13 +42,12 @@ const Corporate = () => {
 											Terms And Conditions
 										</h3>
 										<div className="py-4 h-96  overflow-auto mb-3">
-											
 											<h3>
 												{" "}
 												<span className="font-bold">
 													1. CONTRACT PERIOD
 												</span>{" "}
-												: 1 Year 
+												: 1 Year
 											</h3>
 											<h3 className="font-bold my-2">
 												2. PAYMENT TERMS
@@ -83,7 +84,17 @@ const Corporate = () => {
 												Payment Plan Changes.
 											</p>
 										</div>
-										<button className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content rounded-full">
+										<button
+											onClick={() =>
+												navigate(
+													{
+														pathname: "/order-form",
+														search: `?speed=${u.name}`,
+													},
+													{ state: u }
+												)
+											}
+											className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content rounded-full">
 											Accept
 										</button>
 									</div>
