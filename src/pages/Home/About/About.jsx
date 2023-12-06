@@ -108,7 +108,7 @@ const About = () => {
 					</div> */}
 
 					<Link to="/about" className="btn btn-primary rounded-full">
-						Discover more
+						More About Us
 					</Link>
 				</div>
 

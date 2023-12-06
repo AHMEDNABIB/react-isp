@@ -4,13 +4,18 @@ import { marqueeImage1 } from "../../../data/data-image";
 
 const MarqueeImage = () => {
 	return (
-		<div className="p-6 bg-base-200">
+		<div
+			className="p-6 bg-base-200"
+			data-aos="fade-left"
+			data-aos-easing="linear"
+			data-aos-duration="1500">
 			<h1 className="text-center text-4xl my-5 pb-6 font-bold ">
-				Our Technology partner
+				Our Technology Partner
 			</h1>
 
 			<div className="p-10">
 				<Marquee
+					gradient
 					style={{
 						width: "1500px",
 						position: "absoloute",
@@ -29,7 +34,7 @@ const MarqueeImage = () => {
 									<img
 										src={u.path}
 										alt=""
-										className="h-20 mx-5"
+										className="h-20 w-32 mx-3 "
 									/>
 								</div>
 							);

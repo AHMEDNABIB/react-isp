@@ -1,19 +1,17 @@
 import React from "react";
-import {
-	FaChartLine,
-	FaHandshake,
-	FaHeadset,
-	FaMoneyBillWave,
-} from "react-icons/fa6";
+import { FaHeadset } from "react-icons/fa6";
+import { GiNetworkBars } from "react-icons/gi";
 import { IoIosPerson } from "react-icons/io";
 import { IoSpeedometerOutline } from "react-icons/io5";
+import { LiaConnectdevelop } from "react-icons/lia";
+import { PiBezierCurveLight } from "react-icons/pi";
 
 const Features = () => {
 	return (
 		<div className="w-screen-5xl bg-base-200">
 			<div className="hero py-12   ">
 				<div className="hero-content flex-col md:flex-col">
-					<div className="items-center max-w-5xl">
+					<div className="items-center max-w-5xl" data-aos="fade-up">
 						<h1 className="text-5xl font-bold text-center ">
 							Thrilling Features
 						</h1>
@@ -23,33 +21,36 @@ const Features = () => {
 						</p>
 					</div>
 
-					<progress className="progress progress-primary bg-[#878be7] w-56 mb-10 "></progress>
+					<progress
+						className="progress progress-primary bg-[#878be7] w-56 mb-10 "
+						data-aos="fade-up"></progress>
 
-					<div
-						className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit "
-						data-aos="fade-up-right">
-						<div className="items-center text-center    ">
-							<div className="card w-96 bg-base-100 h-96 shadow-xl">
+					<div className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit ">
+						<div
+							className="items-center text-center    "
+							data-aos="zoom-in">
+							<div className="card w-96 bg-base-100 h-64 shadow-xl">
 								<figure className="mt-6">
-									<IoSpeedometerOutline className="text-[#5f66bf]  text-6xl group-hover:text-white duration-1000  " />
+									<IoSpeedometerOutline className="text-[#5f66bf]  text-5xl group-hover:text-white duration-1000  " />
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
 										TRULY UNLIMITED BROADBAND
 									</h2>
 									<p>
-										Stargate Internet provides "TRULY
-										UNLIMITED HIGH SPEED BROADBAND"
-										packages, No more painful buffering.
+										Stargate Internet offers Limitless
+										Internet Service services.
 									</p>
 								</div>
 							</div>
 						</div>
 
-						<div className="items-center text-center  mx-5   ">
-							<div className="card w-96 bg-base-100 h-96 shadow-xl">
+						<div
+							className="items-center text-center mx-5 "
+							data-aos="zoom-in">
+							<div className="card w-96 bg-base-100 h-64 shadow-xl">
 								<figure className="mt-6">
-									<IoIosPerson className="text-[#5f66bf]  text-6xl group-hover:text-white duration-1000  " />
+									<IoIosPerson className="text-[#5f66bf]  text-5xl group-hover:text-white duration-1000  " />
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
@@ -58,20 +59,18 @@ const Features = () => {
 									<p>
 										Stargate Internet constantly endeavors
 										to promote client interest come what
-										may. From installing the state of the
-										art equipment's at our Network Operating
-										Centre (NOC) and Hubs to sophisticated
-										devices at our last mile Channel Partner
-										offices
+										may.
 									</p>
 								</div>
 							</div>
 						</div>
 
-						<div className="items-center text-center   ">
-							<div className="card w-96 h-96 bg-base-100 shadow-xl">
+						<div
+							className="items-center text-center "
+							data-aos="zoom-in">
+							<div className="card w-96 h-64 bg-base-100 shadow-xl">
 								<figure className="mt-6">
-									<FaHeadset className="text-[#5f66bf]  text-6xl group-hover:text-white duration-1000  " />
+									<FaHeadset className="text-[#5f66bf]  text-5xl group-hover:text-white duration-1000  " />
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
@@ -79,69 +78,64 @@ const Features = () => {
 									</h2>
 									<p>
 										Stargate Internetis almost synonymous
-										with its top notch Customer Service from
-										easy complaint registration to
-										resolution, the Turnaround Time (TAT) is
-										counted as exemplary by industry
-										standards.
+										with its top notch Customer Service
 									</p>
 								</div>
 							</div>
 						</div>
 
-						<div className="items-center text-center   ">
-							<div className="card w-96 h-96 bg-base-100 shadow-xl">
+						<div
+							className="items-center text-center "
+							data-aos="zoom-in">
+							<div className="card w-96 h-64 bg-base-100 shadow-xl">
 								<figure className="mt-6">
-									<FaChartLine className="text-[#5f66bf]  text-6xl group-hover:text-white duration-1000  " />
+									<GiNetworkBars className="text-[#5f66bf]  text-5xl group-hover:text-white duration-1000  " />
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
-										AN EXPERIENCED TREND SETTER
+										Stable Connection
 									</h2>
 									<p>
-										Alliance Broadband's top management has
-										immense ground level experience in
-										network operations and control. The
-										cumulative experience has paid dividends
-										in understanding consumer trends and
-										preferences.
+										Stargate Internet provides incredibly
+										reliable and robust internet
+										connectivity that is never interrupted.
 									</p>
 								</div>
 							</div>
 						</div>
-						<div className="items-center text-center mx-5   mt-[-3] ">
-							<div className="card w-96 h-96 bg-base-100 shadow-xl">
+						<div
+							className="items-center text-center mx-5   mt-[-3] "
+							data-aos="zoom-in">
+							<div className="card w-96 h-64 bg-base-100 shadow-xl">
 								<figure className="mt-6">
-									<FaMoneyBillWave className="text-[#5f66bf]  text-6xl group-hover:text-white duration-1000  " />
+									<PiBezierCurveLight className="text-[#5f66bf]  text-5xl group-hover:text-white duration-1000  " />
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
-										SMART ECONOMICS
+										Multiple Upstream
 									</h2>
 									<p>
-										Stargate Internetbelieves "Smart
-										Economics" for its client. Our plans are
-										robust yet competitive devised to serve
-										all our customer segments with enormous
-										viability.
+										The request is sent by Stargate to many
+										upstream servers.
 									</p>
 								</div>
 							</div>
 						</div>
 
-						<div className="items-center text-center   mt-[-3] ">
-							<div className="card w-96 h-96 bg-base-100 shadow-xl">
+						<div
+							className="items-center text-center   mt-[-3]  "
+							data-aos="zoom-in">
+							<div className="card w-96 h-64 bg-base-100 shadow-xl">
 								<figure className="mt-6">
-									<FaHandshake className="text-[#5f66bf] text-6xl group-hover:text-white duration-1000  " />
+									<LiaConnectdevelop className="text-[#5f66bf] text-5xl group-hover:text-white duration-1000  " />
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
-										TRUSTED VENDOR PARTNERS
+										Fiber Optic Network
 									</h2>
 									<p>
-										Enterprise Class demands Steady, Secured
-										& Reliable Communication Solutions and
-										the quest ends at Alliance Broadband.
+										Fast internet access is available to you
+										with our fiber-optic network.
 									</p>
 								</div>
 							</div>

@@ -25,15 +25,45 @@ export const image = [
 
 export const marqueeImage1 = [
 	{
-		path: "../../image/11.png"
+		path: "../../image/partner/1.png",
 	},
 	{
-		path: "../../image/12.png"
+		path: "../../image/partner/2.png",
 	},
 	{
-		path: "../../image/13.png"
+		path: "../../image/partner/3.png",
 	},
 	{
-		path: "../../image/16.jpeg"
-	}
-]
+		path: "../../image/partner/4.png",
+	},
+	{
+		path: "../../image/partner/5.jpg",
+	},
+	{
+		path: "../../image/partner/6.png",
+	},
+	{
+		path: "../../image/partner/7.png",
+	},
+	{
+		path: "../../image/partner/8.png",
+	},
+	{
+		path: "../../image/partner/9.png",
+	},
+	{
+		path: "../../image/partner/10.png",
+	},
+	{
+		path: "../../image/partner/11.png",
+	},
+	{
+		path: "../../image/partner/12.png",
+	},
+	{
+		path: "../../image/partner/13.png",
+	},
+	{
+		path: "../../image/partner/14.jpg",
+	},
+];

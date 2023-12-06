@@ -1,7 +1,6 @@
 import React from "react";
+import { FaRegLifeRing, FaTools } from "react-icons/fa";
 import { IoSpeedometerOutline } from "react-icons/io5";
-import { FaTools } from "react-icons/fa";
-import { FaRegLifeRing } from "react-icons/fa";
 import { LuRouter } from "react-icons/lu";
 
 const Solution = () => {
@@ -10,7 +9,7 @@ const Solution = () => {
 			{" "}
 			<div className="hero p-16">
 				<div className="hero-content flex-col">
-					<div className="items-center">
+					<div className="items-center" data-aos="fade-up">
 						<h1 className="text-4xl font-bold text-center">
 							Why Choose Us
 						</h1>
@@ -20,10 +19,16 @@ const Solution = () => {
 						</p>
 					</div>
 
-					<progress className="progress progress-primary bg-[#878be7] w-56 mb-10 "></progress>
+					<progress
+						className="progress progress-primary bg-[#878be7] w-56 mb-10 "
+						data-aos="fade-up"></progress>
 
 					<div className="flex flex-wrap mx-auto  justify-center w-fit">
-						<div className="items-center text-center mx-10  mt-[-3] ">
+						<div
+							className="items-center text-center mx-10  "
+							data-aos="fade-up-right"
+							data-aos-easing="linear"
+							data-aos-duration="1000">
 							<div className="card">
 								<figure className="mt-8 ">
 									<IoSpeedometerOutline className="text-primary bg-[#bfc0f0]  p-4 rounded-full  text-6xl  " />
@@ -42,7 +47,11 @@ const Solution = () => {
 							</div>
 						</div>
 
-						<div className="items-center text-center mx-10  ">
+						<div
+							className="items-center text-center mx-10  "
+							data-aos="fade-up-right"
+							data-aos-easing="linear"
+							data-aos-duration="1000">
 							<div className="card">
 								<figure className="mt-8 ">
 									<FaTools className="text-primary bg-[#bfc0f0]  p-4 rounded-full  text-6xl " />
@@ -61,7 +70,11 @@ const Solution = () => {
 							</div>
 						</div>
 
-						<div className="items-center text-center mx-10  ">
+						<div
+							className="items-center text-center mx-10  "
+							data-aos="fade-up-right"
+							data-aos-easing="linear"
+							data-aos-duration="1000">
 							<div className="card">
 								<figure className="mt-8 ">
 									<FaRegLifeRing className="text-primary bg-[#bfc0f0]  p-4 rounded-full  text-6xl   " />
@@ -80,7 +93,11 @@ const Solution = () => {
 							</div>
 						</div>
 
-						<div className="items-center text-center mx-10  ">
+						<div
+							className="items-center text-center mx-10  "
+							data-aos="fade-up-right"
+							data-aos-easing="linear"
+							data-aos-duration="1000">
 							<div className="card">
 								<figure className="mt-8 ">
 									<LuRouter className="text-primary bg-[#bfc0f0]  p-3 rounded-full  text-6xl  " />
@@ -99,8 +116,6 @@ const Solution = () => {
 							</div>
 						</div>
 					</div>
-
-					
 				</div>
 			</div>
 		</>
