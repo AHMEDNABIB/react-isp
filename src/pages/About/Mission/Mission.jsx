@@ -28,9 +28,9 @@ const Mission = () => {
 								line and mobile network
 							</li>
 							<li className="my-2">
-								To become a leading national telco while
-								delivering key economic and social benefits to
-								Bangladesh in its path
+								To provide consumers with high-quality, Network
+								Infrastructures, uninterrupted Internet Network
+								infrastructure access
 							</li>
 							<li className="my-2">
 								To support investment in the infrastructure in

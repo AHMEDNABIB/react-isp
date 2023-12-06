@@ -15,20 +15,19 @@ const Client = () => {
 				data-aos-duration="1000">
 				<div className="hero-content flex-col md:flex-col">
 					<div className="flex flex-row flex-wrap justify-center my-16  gap-5 w-fit ">
-						<div
-							className="items-center text-center">
+						<div className="items-center text-center">
 							<div className="card w-96 bg-base-100 border-2 rounded-none  duration-1000 transform hover:scale-110">
 								<div className="card-body">
 									<h3 className="text-xl font-semibold">
 										<CountUp
-											end={25}
+											end={500}
 											delay={2}
 											// duration={4}
 										/>
 										+
 									</h3>
 									<h3 className="text-xl font-semibold">
-										Franchise Partners
+										Corporate Client
 									</h3>
 								</div>
 							</div>
@@ -39,14 +38,14 @@ const Client = () => {
 								<div className="card-body">
 									<h3 className="text-xl font-semibold">
 										<CountUp
-											end={2500}
+											end={20000}
 											delay={2}
 											// duration={4}
 										/>
 										+
 									</h3>
 									<h3 className="text-xl font-semibold">
-										HAPPY CUSTOMERS
+										Home Internet User
 									</h3>
 								</div>
 							</div>
@@ -57,7 +56,7 @@ const Client = () => {
 								<div className="card-body">
 									<h3 className="text-xl font-semibold">
 										<CountUp
-											end={20}
+											end={14}
 											delay={2}
 											// duration={4}
 										/>
