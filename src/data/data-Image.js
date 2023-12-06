@@ -16,7 +16,7 @@ export const image = [
 	},
 	{
 		id: 3,
-		path: "../../image/18.jpg",
+		path: "../../image/6.jpg",
 		title: "Get Our Dedicated Services.We Help to Grow Your Business",
 		btnName: "Services",
 	},
