@@ -35,7 +35,7 @@ const Features = () => {
 								</figure>
 								<div className="card-body items-center text-center">
 									<h2 className="card-title">
-										TRULY UNLIMITED BROADBAND
+										UNLIMITED BROADBAND
 									</h2>
 									<p>
 										Stargate Internet offers Limitless

@@ -55,7 +55,7 @@ const Banner = () => {
 							id="slide1"
 							className="carousel-item relative w-full  ">
 							<img src={u.path} className="w-full" />
-							<div className="absolute rounded-xl flex items-center h-full left-0 px-20 top-0 bg-gradient-to-r from-[#286AAF] to-[rgba(21, 21, 21, 0.00)] ">
+							<div className="absolute flex items-center h-full left-0 px-20 top-0 bg-gradient-to-r from-[#286AAF] to-[rgba(21, 21, 21, 0.00)] ">
 								<div
 									className="text-white pl-12 space-y-7"
 									data-aos="fade-up">
