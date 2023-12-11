@@ -1,5 +1,5 @@
 import React from "react";
-
+import image1 from "../../../assets/image/benefit.jpg";
 
 import { useNavigate } from "react-router-dom";
 import { home } from "../../../data/data-package";
@@ -7,7 +7,7 @@ import "./HomeInternet.css";
 
 const HomeInternet = () => {
 	const navigate = useNavigate();
-	
+
 	return (
 		<div className="">
 			<div className="flex flex-wrap justify-center">
@@ -88,14 +88,14 @@ const HomeInternet = () => {
 										</div>
 										<button
 											onClick={() =>
-												navigate({
-													pathname: "/order-form",
-													search: `?package=${u.type}&plan=${u.name}`,
-													
-												},
+												navigate(
+													{
+														pathname: "/order-form",
+														search: `?package=${u.type}&plan=${u.name}`,
+													},
 													{ state: u }
-												)}
-											
+												)
+											}
 											className="btn btn-primary w-40 mx-auto hover:bg-base-100 hover:text-accent-content rounded-full">
 											Accept
 										</button>
@@ -125,6 +125,7 @@ const HomeInternet = () => {
 				;
 			</div>
 
+			
 		</div>
 	);
 };

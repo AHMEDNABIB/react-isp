@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Link, Outlet, useLocation } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import image1 from "../../../assets/image/benefit.jpg";
 import Heading from "../Heading/Heading";
-
+import { IoMdCheckmark } from "react-icons/io";
 
 const Packages = () => {
 	const [toggle, setToggle] = useState(1);
@@ -82,6 +83,81 @@ const Packages = () => {
 
 				<div className="max-w-screen-xl mx-auto">
 					<Outlet />
+				</div>
+
+				<div className="hero max-h-full mt-10  ">
+					<div className="hero-content flex-col lg:flex-row-reverse -mx-10">
+						<img
+							src={image1}
+							className="w-[500px] h-[510px] shadow-2xl rounded-r-lg "
+						/>
+						
+						<div className=" bg-white p-8 lg:w-96 w-[500px]  shadow-lg  overflow-hidden -mr-8 rounded-l-lg ">
+							<h1 className="text-xl font-bold mb-5">BENEFITS</h1>
+							<ul className="list-none ">
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Optical Fiber Connectivity
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									24/7 hours Support
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>{" "}
+									Smooth and seamless internet browsing
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Bufferless YouTube video
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Bufferless Facebook video
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									BDIX NIX Connectivity{" "}
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Multiple Upstream
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Local CDN
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Connectivity through Public IP
+								</li>
+								<li className="py-2 flex items-center">
+									<span className="px-2">
+										<IoMdCheckmark />
+									</span>
+									Low latency
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
