@@ -2,9 +2,7 @@ import React from "react";
 
 // import image from "../../../../public/image/7.jpg";
 
-
 import "animate.css";
-import { SlArrowRightCircle } from "react-icons/sl";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -22,7 +20,9 @@ const About = () => {
 	return (
 		<div className="hero bg-[#f2f4f7] py-20  mt-[-10px]">
 			<div className="hero-content flex-col lg:flex-row space-x-5">
-				<div className="lg:w-1/2  space-y-4 p-4" data-aos="fade-right">
+				<div
+					className="lg:w-1/2 -mt-12 space-y-4 p-4"
+					data-aos="fade-right">
 					<h5 className="text-lg text-primary font-bold">
 						Where Speed Meets Seamless
 					</h5>
@@ -112,21 +112,32 @@ const About = () => {
 					</Link>
 				</div>
 
-				<div className="lg:w-1/2  space-y-4 p-4" data-aos="fade-left">
+				<div
+					className="lg:w-1/2 mt-10 space-y-4 p-4"
+					data-aos="fade-left">
 					<h5 className="text-xl text-primary font-bold">
 						Legacy Of Trust
 					</h5>
 					<h1 className="text-4xl font-bold">Services & Solutions</h1>
-					<p className="py-3">
-						In view of customer requirements, Stargate has designed
-						the best plans to serve every user’s need. Because you
-						always needed information fast and stable, we have
-						created the most flexible internet service plans to
-						cater every need of your’s. The entire solution being
-						performed on dedicated fiber optic, ethernet or radio,
-						with guaranteed bandwidth and unlimited traffic. Our
-						service delivery vision include:
-					</p>
+					<div className="py-3">
+						<p>
+							In view of customer requirements, Stargate has
+							designed the best plans to serve every user’s need.
+							Because you always needed information fast and
+							stable, we have created the most flexible internet
+							service plans to cater every need of your’s. The
+							entire solution being performed on dedicated fiber
+							optic, ethernet or radio, with guaranteed bandwidth
+							and unlimited traffic. Our service delivery vision
+							include:
+						</p>
+						<ul className="list-disc ml-6">
+							<li> 99% service uptime</li>
+							<li> Round the clock service</li>
+							<li> Quick turnaround time in resolving issues</li>
+							<li> Multiple backbones</li>
+						</ul>
+					</div>
 
 					<button className="btn btn-primary rounded-full">
 						Learn More

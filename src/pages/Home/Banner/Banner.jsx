@@ -47,22 +47,22 @@ const Banner = () => {
 	return (
 	
 
-		<div className="carousel w-full h-[800px]">
+		<div className="carousel w-full h-[350px] lg:h-[800px]">
 			{image.map((u, i) => {
 				return (
 					cur == i && (
 						<div
 							id="slide1"
 							className="carousel-item relative w-full  ">
-							<img src={u.path} className="w-full" />
-							<div className="absolute flex items-center h-full left-0 px-20 top-0 bg-gradient-to-r from-[#286AAF] to-[rgba(21, 21, 21, 0.00)] ">
+							<img src={u.path} className="lg:w-full " />
+							<div className="absolute flex items-center  h-full left-0 px-20 top-0 bg-gradient-to-r from-[#286AAF] to-[rgba(21, 21, 21, 0.00)] ">
 								<div
 									className="text-white pl-12 space-y-7"
 									data-aos="fade-up">
-									<h2 className="text-6xl font-bold w-1/2  ">
+									<h2 className="lg:text-6xl text-sm font-bold lg:w-1/2  ">
 										{u.title}
 									</h2>
-									<p className="w-1/2 ">{u.des}</p>
+									<p className="lg:w-1/2 ">{u.des}</p>
 									<div>
 										<button className="  btn btn-primary rounded-full mr-5 ">
 											{u.btnName}

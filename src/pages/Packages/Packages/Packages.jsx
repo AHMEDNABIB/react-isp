@@ -85,13 +85,13 @@ const Packages = () => {
 					<Outlet />
 				</div>
 
-				<div className="hero max-h-full mt-10  ">
+				<div className="hero max-h-full mt-10  " data-aos="zoom-in">
 					<div className="hero-content flex-col lg:flex-row-reverse -mx-10">
 						<img
 							src={image1}
 							className="w-[500px] h-[510px] shadow-2xl rounded-r-lg "
 						/>
-						
+
 						<div className=" bg-white p-8 lg:w-96 w-[500px]  shadow-lg  overflow-hidden -mr-8 rounded-l-lg ">
 							<h1 className="text-xl font-bold mb-5">BENEFITS</h1>
 							<ul className="list-none ">
