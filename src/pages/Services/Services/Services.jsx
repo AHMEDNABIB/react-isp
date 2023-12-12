@@ -17,16 +17,16 @@ const Services = () => {
 
 			{/* Home Internet */}
 			<div
-				className="flex flex-row justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-left">
 				<div
 					style={{
 						backgroundImage: `url(${image})`,
 					}}
-					className="bg-gray-300 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5] shadow-xl -ml-20 p-16 pl-24 rounded-md">
-					<div className="hero-content ">
-						<div className="max-w-md">
+					className="bg-gray-300 h-72  w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+				<div className="hero  border  border-[#f4f4f5] shadow-xl lg:-ml-20 p-16 lg:pl-24 rounded-md">
+					<div className="hero-content    ">
+						<div className=" lg:max-w-md ">
 							<h1 className="text-xl font-bold">
 								Home / Shared Internet
 							</h1>
@@ -43,7 +43,7 @@ const Services = () => {
 										pathname: "/packages/home_internet",
 									})
 								}
-								className="btn btn-primary ">
+								className="btn btn-primary   ">
 								See the pricing
 							</button>
 						</div>
@@ -54,14 +54,14 @@ const Services = () => {
 			{/* Corporate Internet */}
 
 			<div
-				className="flex flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-right">
 				<div
 					style={{
 						backgroundImage: `url(${image})`,
 					}}
 					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5]   shadow-xl -mr-20 p-10 pr-24 rounded-md">
+				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 lg:pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
 							<h1 className="text-xl font-bold">
@@ -114,14 +114,14 @@ const Services = () => {
 			</div>
 			{/* Educational */}
 			<div
-				className="flex flex-row justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col  lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-left">
 				<div
 					style={{
 						backgroundImage: `url(${image1})`,
 					}}
 					className="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5]   shadow-xl -ml-20 p-16 pl-24 rounded-md">
+				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-ml-20 p-16 pl-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
 							<h1 className="text-xl font-bold">
@@ -140,14 +140,14 @@ const Services = () => {
 
 			{/* MPLS */}
 			<div
-				className="flex flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-right">
 				<div
 					style={{
 						backgroundImage: `url(${image3})`,
 					}}
 					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5]   shadow-xl -mr-20 p-10 pr-24 rounded-md">
+				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
 							<h1 className="text-xl font-bold">
@@ -175,14 +175,14 @@ const Services = () => {
 			{/* Dark Fiber */}
 
 			<div
-				className="flex flex-row justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-left">
 				<div
 					style={{
 						backgroundImage: `url(${image4})`,
 					}}
 					className="bg-gray-100 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5]   shadow-xl -ml-20 p-16 pl-24 rounded-md">
+				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-ml-20 p-16 pl-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
 							<h1 className="text-xl font-bold">
@@ -205,14 +205,14 @@ const Services = () => {
 			{/* •	Bandwidth Based Connectivity */}
 
 			<div
-				className="flex flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-right">
 				<div
 					style={{
 						backgroundImage: `url(${image5})`,
 					}}
 					className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5]   shadow-xl -mr-20 p-10 pr-24 rounded-md">
+				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
 							<h1 className="text-xl font-bold">
@@ -233,14 +233,14 @@ const Services = () => {
 
 			{/* Nation connectivity */}
 			<div
-				className="flex flex-row justify-center items-center max-w-5xl mx-auto my-8"
+				className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
 				data-aos="zoom-in-left">
 				<div
 					style={{
 						backgroundImage: `url(${image6})`,
 					}}
 					className="bg-gray-100 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
-				<div className="hero  border border-[#f4f4f5]   shadow-xl -ml-20 p-16 pl-24 rounded-md">
+				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-ml-20 p-16 pl-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
 							<h1 className="text-xl font-bold">
