@@ -6,10 +6,15 @@ import Footer from '../pages/Shared/Footer/Footer';
 const Main = () => {
     return (
 		<>
-			<div className="max-w-screen-2xl mx-auto">
-				<Navbar></Navbar>
+			{" "}
+			<div className="max-w-screen-5xl bg-base-100  sticky top-0 z-50 mx-auto">
+				<div className="max-w-screen-2xl mx-auto">
+					<Navbar></Navbar>
+				</div>
 			</div>
-			<Outlet></Outlet>
+			<div className="container-fluid">
+				<Outlet></Outlet>
+			</div>
 			<div className="bg-neutral">
 				<Footer></Footer>
 			</div>

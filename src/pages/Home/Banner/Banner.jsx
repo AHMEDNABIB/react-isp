@@ -59,10 +59,10 @@ const Banner = () => {
 								<div
 									className="text-white pl-12 space-y-7"
 									data-aos="fade-up">
-									<h2 className="lg:text-6xl text-sm font-bold lg:w-1/2  ">
+									<h2 className="lg:text-5xl text-lg  font-bold lg:w-2/3">
 										{u.title}
 									</h2>
-									<p className="lg:w-1/2 ">{u.des}</p>
+									<p className="lg:w-1/2 text-sm lg:text-lg ">{u.des}</p>
 									<div>
 										<button className="  btn btn-primary rounded-full mr-5 ">
 											{u.btnName}

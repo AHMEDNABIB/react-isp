@@ -7,7 +7,11 @@ const Navbar = () => {
 	const navItems = (
 		<>
 			<li>
-				<Link to="/" className="text-base font-base  hover:text-primary ">HOME</Link>
+				<Link
+					to="/"
+					className="text-base font-base  hover:text-primary ">
+					HOME
+				</Link>
 			</li>
 
 			{/* <li tabIndex={0}>
@@ -36,31 +40,52 @@ const Navbar = () => {
 			</li> */}
 
 			<li>
-				<Link to="/packages/home_internet " className="text-base font-base  hover:text-primary ">
+				<Link
+					to="/packages/home_internet "
+					className="text-base font-base  hover:text-primary ">
 					INTERNET PACKAGES
 				</Link>
 			</li>
 
 			<li>
-				<Link to="/covarage" className="text-base font-base  hover:text-primary ">
+				<Link
+					to="/covarage"
+					className="text-base font-base  hover:text-primary ">
 					COVERAGE
 				</Link>
 			</li>
 			<li>
-				<Link to="/paybill" className="text-base font-base  hover:text-primary ">
+				<Link
+					to="/paybill"
+					className="text-base font-base  hover:text-primary ">
 					PAY BILL
 				</Link>
 			</li>
 			<li>
-				<Link to="offers" className="text-base font-base  hover:text-primary">OFFER</Link>
+				<Link
+					to="offers"
+					className="text-base font-base  hover:text-primary">
+					OFFER
+				</Link>
 			</li>
 			<li>
-				<Link to="/about" className="text-base font-base  hover:text-[#5ca8ce] ">
+				<Link
+					to="/services"
+					className="text-base font-base  hover:text-[#5ca8ce] ">
+					SERVICES
+				</Link>
+			</li>
+			<li>
+				<Link
+					to="/about"
+					className="text-base font-base  hover:text-[#5ca8ce] ">
 					ABOUT US
 				</Link>
 			</li>
 			<li>
-				<Link to="/contact" className="text-base font-base  hover:text-[#5ca8ce] ">
+				<Link
+					to="/contact"
+					className="text-base font-base  hover:text-[#5ca8ce] ">
 					CONTACT US
 				</Link>
 			</li>
@@ -68,7 +93,7 @@ const Navbar = () => {
 	);
 
 	return (
-		<div className="navbar bg-base-100 flex items-center justify-center  ">
+		<div className="  navbar flex items-center justify-center  ">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -94,10 +119,8 @@ const Navbar = () => {
 				</div>
 
 				<Link to="/">
-				<img src={logo} className=" w-52 h-16" alt="" />
-					
+					<img src={logo} className=" w-52 h-16" alt="" />
 				</Link>
-
 			</div>
 
 			<div className="navbar-center hidden lg:flex">

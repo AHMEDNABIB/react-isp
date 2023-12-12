@@ -12,6 +12,7 @@ import Covarage from "../pages/Covarage/Covarage/Covarage";
 import Paybill from "../pages/Paybill/Paybill/Paybill";
 import Offers from "../pages/Offers/Offers";
 import PackageForm from "../pages/Packages/PackageForm/PackageForm";
+import Services from "../pages/Services/Services/Services";
 
 const router = createBrowserRouter([
 	{
@@ -29,7 +30,6 @@ const router = createBrowserRouter([
 					{
 						path: "home_internet",
 						element: <HomeInternet />,
-						
 					},
 					{
 						path: "corporate",
@@ -68,6 +68,10 @@ const router = createBrowserRouter([
 			{
 				path: "order-form/",
 				element: <PackageForm />,
+			},
+			{
+				path: "services",
+				element: <Services />,
 			},
 		],
 	},

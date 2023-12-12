@@ -21,7 +21,7 @@ const Value = () => {
 
 					<div
 						className="flex flex-row flex-wrap justify-center  my-16  gap-5 w-fit "
-						data-aos="fade-up-right">
+						data-aos="zoom-out-right">
 						<div className="items-center text-center    ">
 							<div className="card w-96 bg-base-100 h-68 shadow-2xl py-14 hover:scale-110">
 								<figure className="">

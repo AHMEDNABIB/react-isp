@@ -39,7 +39,7 @@ const PackageForm = () => {
 									<input
 										className="form-input block w-full border-2 p-2 border-gray-300 rounded-md "
 										type="text"
-										defaultValue="Name"
+										placeholder="Name"
 									/>
 								</div>
 							</div>
@@ -101,7 +101,7 @@ const PackageForm = () => {
 											<input
 												className="form-input block w-full border-2 p-2 border-gray-300 rounded-md "
 												type="text"
-												defaultValue="Company Name"
+												placeholder="Company Name"
 											/>
 										</div>
 									</div>
@@ -120,7 +120,7 @@ const PackageForm = () => {
 											<input
 												className="form-input block w-full border-2 p-2 border-gray-300 rounded-md "
 												type="text"
-												defaultValue="Company Registration No"
+												placeholder="Company Registration No"
 											/>
 										</div>
 									</div>
@@ -232,9 +232,9 @@ const PackageForm = () => {
 								</div>
 								<div className="md:w-1/2">
 									<textarea
-										className="form-textarea block w-full  border-2  border-gray-300 rounded-md"
+										className="form-textarea block w-full  border-2 p-2  border-gray-300 rounded-md"
 										id="my-textarea"
-										rows={2}
+										rows={2	}
 									/>
 								</div>
 							</div>
@@ -254,7 +254,7 @@ const PackageForm = () => {
 									<input
 										className="form-input block w-full border-2 p-2 border-gray-300 rounded-md "
 										type="text"
-										defaultValue="Email"
+										placeholder="Email"
 									/>
 								</div>
 							</div>
@@ -274,7 +274,7 @@ const PackageForm = () => {
 									<input
 										className="form-input block w-full border-2 p-2 border-gray-300 rounded-md "
 										type="text"
-										defaultValue="01xxxxxxx"
+										placeholder="01xxxxxxx"
 									/>
 								</div>
 							</div>
@@ -294,8 +294,8 @@ const PackageForm = () => {
 									<select
 										name=""
 										className="form-select block w-full  border-2 p-2 border-gray-300 rounded-md"
-										id="my-select">
-										<option value="Default">Default</option>
+										id="my-select" disabled>
+										<option value="Default">{ state.type}</option>
 										<option value="A">A</option>
 										<option value="B">B</option>
 										<option value="C">C</option>
@@ -321,7 +321,7 @@ const PackageForm = () => {
 										id="my-select"
 										disabled>
 										<option value="Default">
-											{state.speed}
+											{state.name} ({state.speed} Mbps)
 										</option>
 										<option value="A">A</option>
 										<option value="B">B</option>
@@ -344,9 +344,9 @@ const PackageForm = () => {
 								<div className="md:w-1/2">
 									<select
 										name=""
-										className="form-select block w-full  border-2 p-2 border-gray-300 rounded-md"
+										className="form-select block w-full  border-2 p-2 border-gray-300 rounded-md" disabled
 										id="my-select">
-										<option value="Default">Default</option>
+										<option value="Default">{ state.cost} tk/1 Month</option>
 										<option value="A">A</option>
 										<option value="B">B</option>
 										<option value="C">C</option>

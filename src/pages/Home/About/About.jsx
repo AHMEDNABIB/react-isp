@@ -113,7 +113,7 @@ const About = () => {
 				</div>
 
 				<div
-					className="lg:w-1/2 mt-10 space-y-4 p-4"
+					className="lg:w-1/2 mt-10  space-y-4 lg:p-4"
 					data-aos="fade-left">
 					<h5 className="text-xl text-primary font-bold">
 						Legacy Of Trust

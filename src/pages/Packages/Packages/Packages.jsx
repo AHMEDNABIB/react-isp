@@ -10,6 +10,8 @@ const Packages = () => {
 	const [toggle, setToggle] = useState(1);
 	const { pathname } = useLocation();
 
+	console.log(pathname)
+
 	const handleNav = (index) => {
 		setToggle(index);
 	};
@@ -40,7 +42,8 @@ const Packages = () => {
 									onClick={() => handleNav(1)}
 									to="/packages/home_internet"
 									className={
-										toggle === 1 && pathname
+										toggle === 1 &&
+										pathname === "/packages/home_internet"
 											? " bg-primary text-white btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md  "
 											: " bg-base-300 btn btn-ghost p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 									}>
@@ -50,7 +53,8 @@ const Packages = () => {
 									onClick={() => handleNav(2)}
 									to="/packages/corporate"
 									className={
-										toggle === 2
+										toggle === 2 ||
+										pathname === "/packages/corporate"
 											? " bg-primary text-white btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 											: " bg-base-300 btn btn-ghost w-44 p-4 mx-1 border-md  border-1 border-base-400 rounded-md"
 									}>
@@ -81,7 +85,7 @@ const Packages = () => {
 					</div>
 				</div>
 
-				<div className="max-w-screen-xl mx-auto">
+				<div className="max-w-screen-xl mx-auto mt-10 lg:mt-0">
 					<Outlet />
 				</div>
 
