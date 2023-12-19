@@ -1,12 +1,12 @@
 import React from "react";
 import image from "../../assets/image/5.jpg";
-import image1    from "../../assets/image/6.jpg";
+import image1    from "../../assets/image/offer.jpg";
 
 const Offers = () => {
 	return (
 		<>
 			<div
-				className="hero h-[300px]  "
+				className="hero h-[400px]  "
 				style={{
 					backgroundImage: `url(${image1})`,
 				}}>
@@ -16,11 +16,9 @@ const Offers = () => {
 					data-aos="fade-up">
 					<div className="max-w-md">
 						<h1 className="mb-5 text-5xl  font-bold">
-							Coverage Area
+							Special Offer
 						</h1>
-						<p className="text-xl">
-							We are available in your doorstep.
-						</p>
+						
 					</div>
 				</div>
 			</div>

@@ -139,9 +139,9 @@ const About = () => {
 						</ul>
 					</div>
 
-					<button className="btn btn-primary rounded-full">
+					<Link to="services" className="btn btn-primary rounded-full">
 						Learn More
-					</button>
+					</Link>
 				</div>
 			</div>
 		</div>

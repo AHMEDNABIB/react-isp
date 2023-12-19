@@ -1,17 +1,24 @@
 import React from "react";
 // import logo from "../../../../public/stargate.svg";
 import logo from '../../../assets/stargate.svg'
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
 	const navItems = (
 		<>
 			<li>
-				<Link
+				<NavLink
 					to="/"
-					className="text-base font-base  hover:text-primary ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					HOME
-				</Link>
+				</NavLink>
 			</li>
 
 			{/* <li tabIndex={0}>
@@ -40,54 +47,103 @@ const Navbar = () => {
 			</li> */}
 
 			<li>
-				<Link
+				<NavLink
 					to="/packages/home_internet "
-					className="text-base font-base  hover:text-primary ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					INTERNET PACKAGES
-				</Link>
+				</NavLink>
 			</li>
 
 			<li>
-				<Link
+				<NavLink
 					to="/covarage"
-					className="text-base font-base  hover:text-primary ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					COVERAGE
-				</Link>
+				</NavLink>
 			</li>
 			<li>
-				<Link
+				<NavLink
 					to="/paybill"
-					className="text-base font-base  hover:text-primary ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					PAY BILL
-				</Link>
+				</NavLink>
 			</li>
 			<li>
-				<Link
+				<NavLink
 					to="offers"
-					className="text-base font-base  hover:text-primary">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					OFFER
-				</Link>
+				</NavLink>
 			</li>
 			<li>
-				<Link
+				<NavLink
 					to="/services"
-					className="text-base font-base  hover:text-[#5ca8ce] ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					SERVICES
-				</Link>
+				</NavLink>
 			</li>
 			<li>
-				<Link
+				<NavLink
 					to="/about"
-					className="text-base font-base  hover:text-[#5ca8ce] ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					ABOUT US
-				</Link>
+				</NavLink>
 			</li>
 			<li>
-				<Link
+				<NavLink
 					to="/contact"
-					className="text-base font-base  hover:text-[#5ca8ce] ">
+					style={({ isActive }) => {
+						return {
+							fontWeight: isActive ? "bold" : "",
+							color: isActive ? "white" : "black",
+							backgroundColor: isActive ? "#333be6" : "",
+						};
+					}}
+					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
 					CONTACT US
-				</Link>
+				</NavLink>
 			</li>
 		</>
 	);

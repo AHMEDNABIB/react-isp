@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../assets/image/4.jpg";
+import image from "../../../assets/image/package.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -17,7 +17,7 @@ const Heading = () => {
 	return (
 		<div>
 			<div
-				className="hero h-[300px]  "
+				className="hero h-[400px]  "
 				style={{
 					backgroundImage: `url(${image})`,
 					height:"300px"

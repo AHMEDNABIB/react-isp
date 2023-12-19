@@ -23,7 +23,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image})`,
 					}}
-					className="bg-gray-300 h-72  w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-300 h-72  w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border  border-[#f4f4f5] shadow-xl lg:-ml-20 p-16 lg:pl-24 rounded-md">
 					<div className="hero-content    ">
 						<div className=" lg:max-w-md ">
@@ -60,7 +60,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image})`,
 					}}
-					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 lg:pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
@@ -120,7 +120,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image1})`,
 					}}
-					className="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-300 h-64 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-ml-20 p-16 pl-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
@@ -146,7 +146,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image3})`,
 					}}
-					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
@@ -181,7 +181,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image4})`,
 					}}
-					className="bg-gray-100 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-100 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-ml-20 p-16 pl-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
@@ -211,7 +211,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image5})`,
 					}}
-					className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-300 h-56 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
@@ -239,7 +239,7 @@ const Services = () => {
 					style={{
 						backgroundImage: `url(${image6})`,
 					}}
-					className="bg-gray-100 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10"></div>
+					className="bg-gray-100 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-ml-20 p-16 pl-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">

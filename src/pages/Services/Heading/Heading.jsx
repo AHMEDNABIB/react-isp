@@ -16,7 +16,7 @@ const Heading = () => {
     return (
 		<div>
 			<div
-				className="hero h-[300px]  "
+				className="hero h-[400px]  w-[1903px] "
 				style={{
 					backgroundImage: `url(${image})`,
 				}}
