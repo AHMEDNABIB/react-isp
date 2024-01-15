@@ -2,7 +2,7 @@ import React from "react";
 import { FaBook, FaShoppingBasket } from "react-icons/fa";
 import { HiHomeModern } from "react-icons/hi2";
 import { IoMdBusiness } from "react-icons/io";
-import {  MdOutlineAddBusiness } from "react-icons/md";
+import { MdOutlineAddBusiness } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 
 import AOS from "aos";
@@ -10,13 +10,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Services = () => {
-
 	useEffect(() => {
 		AOS.init({
-			
-		
 			easing: "ease-in-sine",
-			
 		});
 	}, []);
 	return (

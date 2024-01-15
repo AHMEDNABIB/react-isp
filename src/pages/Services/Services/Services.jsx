@@ -2,7 +2,7 @@ import React from "react";
 import image5 from "../../../assets/image/bandwidth.jpg";
 import image4 from "../../../assets/image/fiber.png";
 import image3 from "../../../assets/image/mpls.jpg";
-import image6 from "../../../assets/image/nation.png";
+import image6 from "../../../assets/image/4.jpg";
 import image1 from "../../../assets/image/school.jpg";
 import image from "../../../assets/image/service.jpg";
 
@@ -16,14 +16,12 @@ const Services = () => {
 			<Heading />
 
 			{/* Home Internet */}
-			<div
-				className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-left">
+			<div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image})`,
 					}}
-					className="bg-gray-300 h-72  w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
+					className="bg-gray-300 h-72  w-full   rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border  border-[#f4f4f5] shadow-xl lg:-ml-20 p-16 lg:pl-24 rounded-md">
 					<div className="hero-content    ">
 						<div className=" lg:max-w-md ">
@@ -53,14 +51,12 @@ const Services = () => {
 
 			{/* Corporate Internet */}
 
-			<div
-				className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-right">
+			<div className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image})`,
 					}}
-					className="bg-gray-300 h-80 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
+					className="bg-gray-300 h-72 w-full rounded-lg shadow-md bg-cover bg-center z-10 hover:scale-105 transition duration-700 ease-in-out"></div>
 				<div className="hero  border border-[#f4f4f5]   shadow-xl lg:-mr-20 p-10 lg:pr-24 rounded-md">
 					<div className="hero-content ">
 						<div className="max-w-md">
@@ -113,9 +109,7 @@ const Services = () => {
 				</div>
 			</div>
 			{/* Educational */}
-			<div
-				className="flex flex-col  lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-left">
+			<div className="flex flex-col  lg:flex-row justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image1})`,
@@ -139,9 +133,7 @@ const Services = () => {
 			</div>
 
 			{/* MPLS */}
-			<div
-				className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-right">
+			<div className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image3})`,
@@ -174,9 +166,7 @@ const Services = () => {
 
 			{/* Dark Fiber */}
 
-			<div
-				className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-left">
+			<div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image4})`,
@@ -204,9 +194,7 @@ const Services = () => {
 
 			{/* •	Bandwidth Based Connectivity */}
 
-			<div
-				className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-right">
+			<div className="flex flex-col lg:flex-row-reverse justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image5})`,
@@ -232,9 +220,7 @@ const Services = () => {
 			</div>
 
 			{/* Nation connectivity */}
-			<div
-				className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8"
-				data-aos="zoom-in-left">
+			<div className="flex flex-col lg:flex-row justify-center items-center max-w-5xl mx-auto my-8">
 				<div
 					style={{
 						backgroundImage: `url(${image6})`,
