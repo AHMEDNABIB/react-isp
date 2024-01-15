@@ -1,24 +1,15 @@
-import React from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
-
+import React from "react";
 
 const Heading = () => {
-		useEffect(() => {
-			AOS.init({
-				offset: 200,
-				duration: 600,
-				easing: "ease-in-sine",
-				delay: 500,
-			});
-		}, []);
 	return (
 		<div>
-			<div className="hero h-[300px] bg-base-200 ">
-				<div className="hero-content text-center" data-aos="fade-up">
+			<div className="hero h-[200px] bg-[#f4f4f5]">
+				<div className="hero-content text-center">
 					<div className="max-w-md">
-						<h1 className="text-5xl font-bold">Pay Bill</h1>
+						<h1 className="text-4xl text-[#333be6] font-bold">
+							BILL PAY
+						</h1>
 					</div>
 				</div>
 			</div>

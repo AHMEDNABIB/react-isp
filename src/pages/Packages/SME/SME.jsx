@@ -11,7 +11,7 @@ const SME = () => {
 					return (
 						<div data-aos="zoom-in" key={u.speed}>
 							<div className="flex flex-col bg-base-200 rounded-lg shadow-md w-60  m-6 overflow-hidden hover:scale-110 duration-500 ">
-								<h2 className="text-center text-primary mt-4 px-2 pb-5">
+								<h2 className="text-center text-primary font-bold mt-4 px-2 pb-5">
 									{u.name}
 								</h2>
 								<h2 className="text-center text-3xl font-semibold px-2 pb-5">

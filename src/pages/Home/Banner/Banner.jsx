@@ -55,21 +55,23 @@ const Banner = () => {
 							id="slide1"
 							className="carousel-item relative w-full  ">
 							<img src={u.path} className="lg:w-full " />
-							<div className="absolute flex items-center  h-full left-0 px-20 top-0 bg-gradient-to-r from-[#286AAF] to-[rgba(21, 21, 21, 0.00)] ">
+							{/* <div className="absolute flex items-center  h-full left-0 px-20 top-0  ">
 								<div
-									className="text-white pl-12 space-y-7"
+									className=" pl-12 space-y-7"
 									data-aos="fade-up">
 									<h2 className="lg:text-5xl text-lg  font-bold lg:w-2/3">
 										{u.title}
 									</h2>
-									<p className="lg:w-1/2 text-sm lg:text-lg ">{u.des}</p>
+									<p className="lg:w-1/2 text-sm lg:text-lg ">
+										{u.des}
+									</p>
 									<div>
 										<button className="  btn btn-primary rounded-full mr-5 ">
 											{u.btnName}
 										</button>
 									</div>
 								</div>
-							</div>
+							</div> */}
 
 							<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 								<button

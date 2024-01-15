@@ -86,7 +86,7 @@ const Navbar = () => {
 						};
 					}}
 					className="text-base font-base  hover:text-white hover:bg-primary hover:scale-105 transition duration-700 ease-in-out">
-					PAY BILL
+					BILL PAY
 				</NavLink>
 			</li>
 			<li>

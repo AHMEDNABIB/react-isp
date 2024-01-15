@@ -1,33 +1,15 @@
-import React from 'react';
-import image from "../../../assets/image/service.jpg";
-import { useEffect } from 'react';
-import AOS from "aos";
 import "aos/dist/aos.css";
+import React from "react";
 
 const Heading = () => {
-	useEffect(() => {
-		AOS.init({
-			offset: 200,
-			duration: 600,
-			easing: "ease-in-sine",
-			delay: 500,
-		});
-	}, []);
-    return (
+	return (
 		<div>
-			<div
-				className="hero h-[400px]  w-[1903px] "
-				style={{
-					backgroundImage: `url(${image})`,
-				}}
-			>
-				<div className="hero-overlay bg-opacity-60"></div>
-				<div
-					className="hero-content text-center text-white"
-					data-aos="fade-up">
+			<div className="hero  h-[200px] bg-[#f4f4f5] ">
+				<div className="hero-content text-center text-white">
 					<div className="max-w-md">
-						<h1 className="mb-5 text-5xl  font-bold">Services</h1>
-						
+						<h1 className="mb-5  text-4xl text-[#333be6]  font-bold">
+							SERVICE
+						</h1>
 					</div>
 				</div>
 			</div>

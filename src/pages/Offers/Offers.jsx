@@ -1,24 +1,15 @@
 import React from "react";
 import image from "../../assets/image/5.jpg";
-import image1    from "../../assets/image/offer.jpg";
 
 const Offers = () => {
 	return (
 		<>
-			<div
-				className="hero h-[400px]  "
-				style={{
-					backgroundImage: `url(${image1})`,
-				}}>
-				<div className="hero-overlay bg-opacity-60"></div>
-				<div
-					className="hero-content text-center text-white"
-					data-aos="fade-up">
+			<div className="hero  h-[200px] bg-[#f4f4f5]  ">
+				<div className="hero-content text-center text-white">
 					<div className="max-w-md">
-						<h1 className="mb-5 text-5xl  font-bold">
-							Special Offer
+						<h1 className="mb-5  text-4xl text-[#333be6]  font-bold">
+							SPECIAL OFFER
 						</h1>
-						
 					</div>
 				</div>
 			</div>
