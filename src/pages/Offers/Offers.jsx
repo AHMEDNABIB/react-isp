@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/image/5.jpg";
+import image from "../../assets/image/offer.jpeg";
 
 const Offers = () => {
 	return (
@@ -18,7 +18,7 @@ const Offers = () => {
 				<div className="hero-content flex-col lg:flex-col-reverse">
 					<img
 						src={image}
-						className="max-w-sm rounded-lg shadow-2xl"
+						className="max-w-sm h-1/2 rounded-sm shadow-2xl"
 					/>
 					<div className="hero-content text-center text-neutral-content">
 						<div className="max-w-xl">
